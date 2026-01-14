@@ -74,15 +74,18 @@ import Schedule from '@/components/Schedule'
 import Venue from '@/components/Venue'
 import Sponsors from '@/components/Sponsors'
 import Footer from '@/components/Footer'
-
+import ConferenceTracks from '@/components/Conference Track'
+import Registration from '@/components/Registration'
 export default function Home(){
   return(
     <main>
       <Navbar />
-      <Hero />
-      <About />
+      <Hero />      
+      <About /> 
+      <ConferenceTracks/>
       <Speakers />
       <Schedule />
+      <Registration/>
       <Venue />
       <Sponsors />
       <Footer />
