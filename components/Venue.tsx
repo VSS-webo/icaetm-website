@@ -65,7 +65,7 @@ export default function VenueContact() {
             </p>
             
             <p className="text-gray-200 mb-2">
-              <strong>Phone:</strong> <a href="tel:+xxxxx" className="text-sky-400 hover:underline">+91 98765 43210</a>
+              <strong>Phone:</strong> <a href="tel:+xxxxx" className="text-sky-400 hover:underline">+91 xxx43210</a>
             </p>
             
             <p className="text-gray-200">

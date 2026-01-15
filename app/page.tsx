@@ -76,6 +76,8 @@ import Sponsors from '@/components/Sponsors'
 import Footer from '@/components/Footer'
 import ConferenceTracks from '@/components/Conference Track'
 import Registration from '@/components/Registration'
+import Committee from '@/components/Committee'
+
 export default function Home(){
   return(
     <main>
@@ -83,6 +85,7 @@ export default function Home(){
       <Hero />      
       <About /> 
       <ConferenceTracks/>
+      <Committee/>
       <Speakers />
       <Schedule />
       <Registration/>

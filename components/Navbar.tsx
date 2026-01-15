@@ -61,6 +61,7 @@ export default function Navbar(){
             Committee
           </a>
           <a 
+          
             href="#Registration" 
             className="px-3 py-2 hover:bg-indigo-600/30 rounded-full transition-all duration-200"
           >
