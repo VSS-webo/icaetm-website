@@ -45,7 +45,7 @@ export default function Committee() {
 
             <div className="p-6 flex flex-col justify-center">
                 <p className="text-lg font-semibold text-white">
-                Dr. Rajendra Borhade
+                Shri R. V. Borhade
                 </p>
                 <p className="text-gray-300 mt-1 text-sm">
                 Chairman, Pune Vidyarthi Griha, Pune
@@ -66,7 +66,7 @@ export default function Committee() {
             </div>
             <div className="p-6 flex flex-col justify-center">
                 <p className="text-lg font-semibold text-white">
-                Sanjay Gunjal
+                Shri S. N. Gunjal
                 </p>
                 <p className="text-gray-300 mt-1 text-sm">
                 Secretary, Pune Vidyarthi Griha, Pune
@@ -86,7 +86,7 @@ export default function Committee() {
             </div>
             <div className="p-6 flex flex-col justify-center">
                 <p className="text-lg font-semibold text-white">
-                Dr. Sunil Redekar
+                Shri S. P. Redekar
                 </p>
                 <p className="text-gray-300 mt-1 text-sm">
                 Director, PVG’s COETM, Pune
@@ -106,7 +106,7 @@ export default function Committee() {
             </div>
             <div className="p-6 flex flex-col justify-center">
                 <p className="text-lg font-semibold text-white">
-                Dr. Rajendra Kaduskar
+                Prof. R. G. Kaduskar
                 </p>
                 <p className="text-gray-300 mt-1 text-sm">
                 Director, PVG’s COETM, Pune
@@ -142,7 +142,7 @@ export default function Committee() {
             </div>
             <div className="p-6 flex flex-col justify-center">
                 <p className="text-lg font-semibold text-white">
-                Dr. Manoj Tarambale
+                Dr. Manoj R. Tarambale
                 </p>
                 <p className="text-gray-300 mt-1 text-sm">
                 Principal, PVG’s COETM, Pune
@@ -158,7 +158,7 @@ export default function Committee() {
         viewport={{ once: true }}
         transition={{ duration: 0.5, delay: 0.1 }}
         >
-        <h3 className="text-3xl font-semibold text-violet-400 mb-8 text-center">
+        <h3 className="text-3xl font-semibold text-violet-400 mb-5 text-center">
             Convenors
         </h3>
 
