@@ -51,6 +51,110 @@ export default function Registration() {
             </tbody>
           </table>
         </div>
+
+        {/* ===== Mode of Payment ===== */}
+        <div className="mt-12 border border-gray-700 rounded-xl p-6 md:p-8">
+
+          <h3 className="text-2xl font-medium text-white mb-6 text-center">
+            Mode of Payment
+          </h3>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-10 gap-y-4 text-gray-300 text-sm md:text-base">
+
+            <div className="flex justify-between border-b border-gray-700 pb-2">
+              <span className="text-gray-400">Bank Name</span>
+              <span className="text-white font-medium">Bank of India</span>
+            </div>
+
+            <div className="flex justify-between border-b border-gray-700 pb-2">
+              <span className="text-gray-400">Branch</span>
+              <span className="text-white font-medium">Swargate, Pune</span>
+            </div>
+
+            
+            <div className="flex justify-between border-b border-gray-700 pb-2">
+              <span className="text-gray-400">Account Number</span>
+              <span className="text-white font-medium">050810110003595</span>
+            </div>
+
+            <div className="flex justify-between border-b border-gray-700 pb-2">
+              <span className="text-gray-400">IFSC Code</span>
+              <span className="text-white font-medium">BKID0000508</span>
+            </div>
+
+            <div className="flex justify-between border-b sm:col-span-2 border-b border-gray-700 pb-2">
+              <span className="text-gray-400">Account Name</span>
+              <span className="text-white font-medium">
+                PVGCOET ALLIED ACTIVITES CENTER
+              </span>
+            </div>
+
+          </div>
+
+          {/* Optional note */}
+          <p className="text-gray-400 text-xs md:text-sm mt-6 text-center">
+            * Transaction charges, if any, shall be borne by the participant.
+            Please retain the payment receipt for verification during registration.
+          </p>
+
+        </div>
+
+
+        {/* ===== Notes ===== */}
+        <div className="mt-10 max-w-5xl mx-auto 
+        border border-gray-700 
+        border-t-2 border-t-indigo-500 
+        rounded-xl p-8 md:p-10">
+
+
+          <h3 className="text-2xl font-medium text-white mb-4">
+            Note
+          </h3>
+
+          <ul className="list-disc pl-5 space-y-3 text-gray-300 text-sm md:text-base leading-relaxed">
+
+            <li>
+              Uploading of articles will be done through <span className="text-white font-medium">Microsoft CMT</span>.
+            </li>
+
+            <li>
+              The conference registration fees do not include the journal publication charges.
+            </li>
+
+            <li>
+              Papers should be written in <span className="text-white font-medium">English</span>, and page limits shall be
+              followed as per the respective journal policy.
+            </li>
+
+            <li>
+              Conference registration is mandatory for at least <span className="text-white font-medium">one author</span> and
+              must be completed before the registration deadline.
+            </li>
+
+            <li>
+              Participants across the globe may present their work in
+              <span className="text-white font-medium"> online or offline mode</span> as per their preference.
+            </li>
+
+            <li>
+              High-quality accepted and presented papers will be considered for recommendation to
+              <span className="text-white font-medium"> Scopus-indexed journals</span> after an additional peer-review process.
+            </li>
+
+            <li>
+              Awards will be presented for the <span className="text-white font-medium">best papers</span>.
+            </li>
+
+            <li>
+              All updates will be communicated via the conference email ID:
+              <span className="text-white font-medium"> icaetm2026@pvgcoet.ac.in</span>
+            </li>
+
+          </ul>
+      </div>
+
+
+
       </div>
     </section>
   )

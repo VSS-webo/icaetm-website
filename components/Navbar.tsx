@@ -168,11 +168,13 @@ export default function Navbar() {
             </a>
 
             <a
-              href="#register"
-              className="px-5 py-2 rounded-full bg-indigo-600 text-white hover:bg-indigo-500 transition"
-            >
-              Register
-            </a>
+            href="https://cmt3.research.microsoft.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="px-5 py-2 rounded-full bg-indigo-600 text-white hover:bg-indigo-500 transition-colors duration-200"
+          >
+            Register
+          </a>
           </div>
         </div>
       </div>

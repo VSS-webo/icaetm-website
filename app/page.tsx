@@ -77,6 +77,7 @@ import Footer from '@/components/Footer'
 import ConferenceTracks from '@/components/Conference Track'
 import Registration from '@/components/Registration'
 import Committee from '@/components/Committee'
+import ImportantDates from '@/components/Important-dates'
 
 export default function Home(){
   return(
@@ -87,6 +88,7 @@ export default function Home(){
       <ConferenceTracks/>
       <Committee/>
       <Speakers />
+      <ImportantDates/>
       <Schedule />
       <Registration/>
       <Venue />
