@@ -284,6 +284,52 @@ export default function About() {
         </div>
         </motion.div>
 
+        {/* PVG COET*/}
+        <motion.div
+          initial={{ opacity: 0, y: 40 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6 }}
+          className="max-w-7xl mx-auto"
+        >
+        <div className="grid md:grid-cols-2 gap-12 items-center
+                        rounded-[2.75rem]
+                        border border-white/15
+                        p-12 md:p-16">
+
+          {/* Image */}
+          <div className="relative h-[360px] rounded-2xl overflow-hidden shadow-xl">
+            <Image
+              src="/about/pvgcoet.jpg"
+              alt="PVG COET"
+              fill
+              className="object-cover"
+            />
+          </div>
+
+          {/* Text */}
+          <div>
+            <h3 className="text-3xl font-semibold text-violet-400 mb-3">
+              PVG’s COETM, Pune-09
+
+            </h3>
+            <p className="text-center text-gray-300 max-w-3xl mx-auto mb-12 text-base md:text-s">
+              Pune Vidyarthi Griha’s College of Engineering, Technology and Management (PVG’s COETM),
+              Pune, India, <a href="https://www.pvgcoet.ac.in/" target='_blank' className="text-sky-400 hover:underline">PVGCOET</a>,  established in 1985, is a premier autonomous institute
+              permanently affiliated to Savitribai Phule Pune University (SPPU) and approved by AICTE. The
+              institute is accredited with NAAC ‘A’ Grade (Third Cycle) under the revised ICT framework, and
+              almost all programs are NBA accredited, reflecting its strong commitment to academic excellence
+              and quality education.
+              The institute offers a wide range of Undergraduate, Postgraduate, and Doctoral programs
+              in Engineering, Technology, & Management. With state-of-the-art infrastructure, advanced
+              laboratories, modern computing facilities, a well-equipped library, and a strong research ecosystem,
+              PVG’s COETM provides an ideal platform for learning, innovation, and interdisciplinary collaboration.
+            </p>
+          </div>
+
+        </div>
+        </motion.div>
+
 
                 {/* ===== About Pune ===== */}
         <motion.div
