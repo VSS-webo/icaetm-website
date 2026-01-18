@@ -59,7 +59,7 @@ export default function Hero() {
         <div className="flex gap-4 justify-center">
           <a
             className="px-6 py-3 bg-black/30 text-white rounded-xl hover:bg-black/50 transition-colors"
-            href="#register"
+            href="https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2F"
           >
             Register Now
           </a>

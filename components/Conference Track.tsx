@@ -145,15 +145,17 @@ const tracks: Track[] = [
       "EV powertrains, batteries, charging infrastructure, and V2X",
       "Energy storage systems and management",
       "Smart grids, renewable integration, and power electronics",
+      "Green energy solutions and net-zero technologies",
     ]
   },
   {
     title: "Track 2: Smart Manufacturing, Automation & Intelligent Systems",
     points: [
       "Automation, robotics, drones, and mechatronics",
-      "Smart control systems and human–machine interaction",
-      "Additive manufacturing and advanced production technologies",
-      "Industry 5.0, smart cities, and intelligent manufacturing systems",
+    "Smart control systems and human–machine interaction",
+    "Additive manufacturing and advanced production technologies",
+    "Sustainable materials and process innovation",
+    "Industry 5.0, smart cities, and intelligent manufacturing systems",
     ]
   },
   {
