@@ -277,6 +277,7 @@ export default function ConferenceTracks() {
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
             className="fixed inset-0 z-50 flex items-center justify-center bg-black/50"
+            onClick={()=> setActiveTrack(null)}
           >
             <motion.div
               initial={{ scale: 0.9, y: 30 }}
@@ -284,6 +285,7 @@ export default function ConferenceTracks() {
               exit={{ scale: 0.9, y: 30 }}
               transition={{ duration: 0.25 }}
               className="bg-slate-900 rounded-2xl max-w-2xl w-full mx-4 shadow-xl border border-white/10"
+              onClick={(e)=> e.stopPropagation()}
             >
               {/* Header */}
               <div className="flex justify-between items-center p-6 border-b border-white/10">

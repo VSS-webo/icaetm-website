@@ -34,14 +34,14 @@ export default function Committee() {
             <div className="flex bg-slate-800/70 backdrop-blur rounded-2xl border border-white/10 shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden">
             
             {/* Vertical Image */}
-            <div className="w-28 relative">
+            {/* <div className="w-28 relative">
                 <Image
                 src="/committee/rajendra.jpg"
                 alt="Dr. XYZ ABC"
                 fill    
                 className="object-cover"
                 />
-            </div>
+            </div> */}
 
             <div className="p-6 flex flex-col justify-center">
                 <p className="text-lg font-semibold text-white">
@@ -56,14 +56,14 @@ export default function Committee() {
             
             <div className="flex bg-slate-800/70 backdrop-blur rounded-2xl border border-white/10 shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden">
             
-            <div className='w-28 relative'>
+            {/* <div className='w-28 relative'>
                 <Image
                  src="/committee/gunjal.jpg"
                  alt="Gunjal sir"
                  fill
                  className='object-cover'
                 />
-            </div>
+            </div> */}
             <div className="p-6 flex flex-col justify-center">
                 <p className="text-lg font-semibold text-white">
                 Shri S. N. Gunjal
@@ -76,14 +76,14 @@ export default function Committee() {
 
             
             <div className="flex bg-slate-800/70 backdrop-blur rounded-2xl border border-white/10 shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden">
-            <div className='w-28 relative'>
+            {/* <div className='w-28 relative'>
                 <Image
                  src="/committee/redekar.jpg"
                  alt="redekar sir"
                  fill
                  className='object-cover'
                 />
-            </div>
+            </div> */}
             <div className="p-6 flex flex-col justify-center">
                 <p className="text-lg font-semibold text-white">
                 Shri S. P. Redekar
@@ -96,14 +96,14 @@ export default function Committee() {
 
             
             <div className="flex bg-slate-800/70 backdrop-blur rounded-2xl border border-white/10 shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden">
-            <div className='w-28 relative'>
+            {/* <div className='w-28 relative'>
                 <Image
                  src="/committee/kaduskar.jpg"
                  alt="kaduskar sir"
                  fill
                  className='object-cover'
                 />
-            </div>
+            </div> */}
             <div className="p-6 flex flex-col justify-center">
                 <p className="text-lg font-semibold text-white">
                 Prof. R. G. Kaduskar
@@ -132,14 +132,14 @@ export default function Committee() {
 
           <div className="flex max-w-md mx-auto bg-slate-800/70 backdrop-blur rounded-2xl border border-white/10 shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden">
 
-            <div className='w-28 relative'>
+            {/* <div className='w-28 relative'>
                 <Image
                  src="/committee/tarambale.jpg"
                  alt="tarambale sir"
                  fill
                  className='object-cover'
                 />
-            </div>
+            </div> */}
             <div className="p-6 flex flex-col justify-center">
                 <p className="text-lg font-semibold text-white">
                 Dr. Manoj R. Tarambale
@@ -158,6 +158,8 @@ export default function Committee() {
         viewport={{ once: true }}
         transition={{ duration: 0.5, delay: 0.1 }}
         >
+
+        
         <h3 className="text-3xl font-semibold text-violet-400 mb-5 text-center">
             Convenors
         </h3>
@@ -166,15 +168,15 @@ export default function Committee() {
             
             
             <div className="flex bg-slate-800/70 backdrop-blur rounded-2xl border border-white/10 shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden">
-            <div className="w-28 relative">
+            {/* <div className="w-28 relative">
                 <Image
                 src="/committee/bhoomkar.png"
                 alt="Dr. Manmohan Bhoomkar"
                 fill
                 className="object-cover"
                 />
-            </div>
-            <div className="p-6 flex flex-col justify-center">
+            </div> */}
+            <div className="p-6 flex flex-col justify-center  hover:border-violet-400/40">
                 <p className="text-lg font-semibold text-white">
                 Dr. Manmohan M. Bhoomkar
                 </p>
@@ -186,14 +188,14 @@ export default function Committee() {
 
             {/* Convenor 2 */}
             <div className="flex bg-slate-800/70 backdrop-blur rounded-2xl border border-white/10 shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden">
-            <div className="w-28 relative">
+            {/* <div className="w-28 relative">
                 <Image
                 src="/committee/edlabadkar.png"
                 alt="Dr. Rajendra Borhade"
                 fill
                 className="object-cover"
                 />
-            </div>
+            </div> */}
             <div className="p-6 flex flex-col justify-center">
                 <p className="text-lg font-semibold text-white">
                 Dr. Ravindra L. Edlabadkar
