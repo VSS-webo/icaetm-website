@@ -127,10 +127,205 @@
 
 
 
+// 'use client'
+
+// import { useState } from 'react'
+// import { motion, AnimatePresence } from 'framer-motion'
+
+// interface Track {
+//   title: string
+//   points: string[]
+// }
+
+// const tracks: Track[] = [
+//   {
+//     title: "Track 1: Electric Mobility, Power & Sustainable Energy Systems",
+//     points: [
+//       "Electric, hybrid, and autonomous mobility solutions",
+//       "EV powertrains, batteries, charging infrastructure, and V2X",
+//       "Energy storage systems and management",
+//       "Power system operation, control, and protection",
+//       "Smart grids, renewable integration, and power electronics",
+//       "Green energy solutions and net-zero technologies",
+//     ]
+//   },
+//   {
+//     title: "Track 2: Smart Manufacturing, Automation & Intelligent Systems",
+//     points: [
+//       "Automation, robotics, drones, and mechatronics",
+//     "Smart control systems and human–machine interaction",
+//     "Additive manufacturing and advanced production technologies",
+//     "Sustainable materials and process innovation",
+//     "Industry 5.0, smart cities, and intelligent manufacturing systems",
+//     ]
+//   },
+//   {
+//     title: "Track 3:  Thermal, Design, Energy, and Agriculture technologies",
+//     points: [
+//         "Thermal Sciences & Fluid Engineering",
+//         "Engineering Design & Product Development",
+//         "Energy Systems & Sustainable Renewable Technologies",
+//         "Agricultural & Rural Engineering",
+//     ]
+//   },
+//   {
+//     title: "Track 4: Computing, AI, Data & Cyber Technologies",
+//     points: [
+//         "Artificial intelligence, ML & emerging algorithms",
+//         "Big data and analytics",
+//         "Advanced computing architectures & software systems",
+//         "Computer Networks, cloud & edge computing",
+//         "Deep learning and computer vision",
+//         "Cybersecurity and blockchain",
+//         "Quantum computing",
+//         "Mobile Computing and Applications",
+//         "IoT applications",
+//         "Augmented and Virtual Realities (AR/VR)",
+//     ]
+//   },
+//   {
+//     title: "Track 5: Electronics, Embedded & Communication Technologies",
+//     points: [
+//         "Embedded systems, VLSI design, and Analog circuits",
+//         "Advanced control systems and signal processing",
+//         "Optical and next-generation communication systems",
+//         "IoT, Wireless and sensor networks, and cyber-physical systems",
+//         "Digital health, biomedical systems",
+//         "Satellite communication & imagery",
+//     ]
+//   },
+//   {
+//     title: "Track 6: Printing and Packaging Technology",
+//     points: [
+//         "Advances in Conventional and Digital Printing Technologies",
+//         "Innovations in Packaging Technology",
+//         "Printed Electronics & Functional Printing",
+//         "Inks & Materials",
+//         "Sustainable materials, lifecycle, and circular design",
+//         "Data Analytics, Process Optimization & Quality Assurance",
+//     ]
+//   },
+//   {
+//     title: "Track 7: Management Strategies for Sustainable Development",
+//     points: [
+//         "Financial management",
+//         "Human Resource Management",
+//         "Marketing Management (MM)",
+//         "Operations & Supply Chain Management",
+//         "Business Analytics",
+//         "Rural and Agri Business Management",
+//     ]
+//   },
+//   {
+//     title : "Track 8: Applied Sciences for Engineering & Technology",
+//     points: [
+//         "Applied physics",
+//         "Applied and green chemistry",
+//         "Mathematical modelling and computational methods",
+//         "Applied statistics, data analysis, and optimization",
+//         "Physical and chemical characterization",
+//         "Interdisciplinary applications of applied sciences in engineering",
+//     ]
+//   },
+  
+// ]
+
+// export default function ConferenceTracks() {
+//   const [activeTrack, setActiveTrack] = useState<Track | null>(null)
+
+//   return (
+//     <section id="conference-track" className="py-16 bg-slate-900">
+//       <div className="max-w-7xl mx-auto px-6">
+
+//         <h2 className="text-4xl md:text-5xl font-bold text-center mb-12 text-white">
+//           Conference Tracks
+//         </h2>
+
+//         <p className="text-center text-gray-300 mb-10 max-w-3xl mx-auto">
+//           Papers are called for, but not limited to, the following topics
+//         </p>
+
+//         {/* GRID */}
+//         <div className="grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-4 auto-rows-fr">
+
+//           {tracks.map((track, idx) => (
+//             <motion.div
+//               key={idx}
+//               whileHover={{ scale: 1.05 }}
+//               onClick={() => setActiveTrack(track)}
+//               className="cursor-pointer bg-slate-800 rounded-2xl p-6
+//                          border border-white/10 shadow-md
+//                          hover:shadow-xl transition"
+//             >
+//               <h3 className="text-lg font-semibold text-violet-400">
+//                 {track.title}
+//               </h3>
+
+//               <p className="mt-4 text-sm text-indigo-300">
+//                 View topics →
+//               </p>
+//             </motion.div>
+//           ))}
+//         </div>
+//       </div>
+
+//       {/* MODAL */}
+//       <AnimatePresence>
+//         {activeTrack && (
+//           <motion.div
+//             initial={{ opacity: 0 }}
+//             animate={{ opacity: 1 }}
+//             exit={{ opacity: 0 }}
+//             className="fixed inset-0 z-50 flex items-center justify-center bg-black/50"
+//             onClick={()=> setActiveTrack(null)}
+//           >
+//             <motion.div
+//               initial={{ scale: 0.9, y: 30 }}
+//               animate={{ scale: 1, y: 0 }}
+//               exit={{ scale: 0.9, y: 30 }}
+//               transition={{ duration: 0.25 }}
+//               className="bg-slate-900 rounded-2xl max-w-2xl w-full mx-4 shadow-xl border border-white/10"
+//               onClick={(e)=> e.stopPropagation()}
+//             >
+//               {/* Header */}
+//               <div className="flex justify-between items-center p-6 border-b border-white/10">
+//                 <h3 className="text-xl font-semibold text-violet-400">
+//                   {activeTrack.title}
+//                 </h3>
+//                 <button
+//                   onClick={() => setActiveTrack(null)}
+//                   className="text-gray-400 hover:text-white text-xl"
+//                 >
+//                   ✕
+//                 </button>
+//               </div>
+
+//               {/* Content */}
+//               <div className="p-6">
+//                 <ul className="list-disc list-inside space-y-2 text-gray-300">
+//                   {activeTrack.points.map((point, i) => (
+//                     <li key={i}>{point}</li>
+//                   ))}
+//                 </ul>
+//               </div>
+//             </motion.div>
+//           </motion.div>
+//         )}
+//       </AnimatePresence>
+//     </section>
+//   )
+// }
+
+
+
+// adding on 27 Jan for lighter theme
+
 'use client'
 
-import { useState } from 'react'
+import { useState, useEffect} from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
+
+
 
 interface Track {
   title: string
@@ -153,115 +348,141 @@ const tracks: Track[] = [
     title: "Track 2: Smart Manufacturing, Automation & Intelligent Systems",
     points: [
       "Automation, robotics, drones, and mechatronics",
-    "Smart control systems and human–machine interaction",
-    "Additive manufacturing and advanced production technologies",
-    "Sustainable materials and process innovation",
-    "Industry 5.0, smart cities, and intelligent manufacturing systems",
+      "Smart control systems and human–machine interaction",
+      "Additive manufacturing and advanced production technologies",
+      "Sustainable materials and process innovation",
+      "Industry 5.0, smart cities, and intelligent manufacturing systems",
     ]
   },
   {
-    title: "Track 3:  Thermal, Design, Energy, and Agriculture technologies",
+    title: "Track 3: Thermal, Design, Energy, and Agriculture technologies",
     points: [
-        "Thermal Sciences & Fluid Engineering",
-        "Engineering Design & Product Development",
-        "Energy Systems & Sustainable Renewable Technologies",
-        "Agricultural & Rural Engineering",
+      "Thermal Sciences & Fluid Engineering",
+      "Engineering Design & Product Development",
+      "Energy Systems & Sustainable Renewable Technologies",
+      "Agricultural & Rural Engineering",
     ]
   },
   {
     title: "Track 4: Computing, AI, Data & Cyber Technologies",
     points: [
-        "Artificial intelligence, ML & emerging algorithms",
-        "Big data and analytics",
-        "Advanced computing architectures & software systems",
-        "Computer Networks, cloud & edge computing",
-        "Deep learning and computer vision",
-        "Cybersecurity and blockchain",
-        "Quantum computing",
-        "Mobile Computing and Applications",
-        "IoT applications",
-        "Augmented and Virtual Realities (AR/VR)",
+      "Artificial intelligence, ML & emerging algorithms",
+      "Big data and analytics",
+      "Advanced computing architectures & software systems",
+      "Computer Networks, cloud & edge computing",
+      "Deep learning and computer vision",
+      "Cybersecurity and blockchain",
+      "Quantum computing",
+      "Mobile Computing and Applications",
+      "IoT applications",
+      "Augmented and Virtual Realities (AR/VR)",
     ]
   },
   {
     title: "Track 5: Electronics, Embedded & Communication Technologies",
     points: [
-        "Embedded systems, VLSI design, and Analog circuits",
-        "Advanced control systems and signal processing",
-        "Optical and next-generation communication systems",
-        "IoT, Wireless and sensor networks, and cyber-physical systems",
-        "Digital health, biomedical systems",
-        "Satellite communication & imagery",
+      "Embedded systems, VLSI design, and Analog circuits",
+      "Advanced control systems and signal processing",
+      "Optical and next-generation communication systems",
+      "IoT, Wireless and sensor networks, and cyber-physical systems",
+      "Digital health, biomedical systems",
+      "Satellite communication & imagery",
     ]
   },
   {
     title: "Track 6: Printing and Packaging Technology",
     points: [
-        "Advances in Conventional and Digital Printing Technologies",
-        "Innovations in Packaging Technology",
-        "Printed Electronics & Functional Printing",
-        "Inks & Materials",
-        "Sustainable materials, lifecycle, and circular design",
-        "Data Analytics, Process Optimization & Quality Assurance",
+      "Advances in Conventional and Digital Printing Technologies",
+      "Innovations in Packaging Technology",
+      "Printed Electronics & Functional Printing",
+      "Inks & Materials",
+      "Sustainable materials, lifecycle, and circular design",
+      "Data Analytics, Process Optimization & Quality Assurance",
     ]
   },
   {
     title: "Track 7: Management Strategies for Sustainable Development",
     points: [
-        "Financial management",
-        "Human Resource Management",
-        "Marketing Management (MM)",
-        "Operations & Supply Chain Management",
-        "Business Analytics",
-        "Rural and Agri Business Management",
+      "Financial management",
+      "Human Resource Management",
+      "Marketing Management (MM)",
+      "Operations & Supply Chain Management",
+      "Business Analytics",
+      "Rural and Agri Business Management",
     ]
   },
   {
     title : "Track 8: Applied Sciences for Engineering & Technology",
     points: [
-        "Applied physics",
-        "Applied and green chemistry",
-        "Mathematical modelling and computational methods",
-        "Applied statistics, data analysis, and optimization",
-        "Physical and chemical characterization",
-        "Interdisciplinary applications of applied sciences in engineering",
+      "Applied physics",
+      "Applied and green chemistry",
+      "Mathematical modelling and computational methods",
+      "Applied statistics, data analysis, and optimization",
+      "Physical and chemical characterization",
+      "Interdisciplinary applications of applied sciences in engineering",
     ]
   },
-  
 ]
 
 export default function ConferenceTracks() {
   const [activeTrack, setActiveTrack] = useState<Track | null>(null)
 
+  useEffect(() => {
+    const handleEsc = (event: KeyboardEvent) => {
+        if (event.key === 'Escape') {
+        setActiveTrack(null)
+        }
+        
+    }
+
+    if (activeTrack) {
+        window.addEventListener('keydown', handleEsc)
+    }
+
+    return () => {
+        window.removeEventListener('keydown', handleEsc)
+    }
+    }, [activeTrack])
+
+
   return (
-    <section id="conference-track" className="py-16 bg-slate-900">
+    <section
+      id="conference-track"
+      className="py-20 bg-gradient-to-b from-sky-50 via-white to-violet-100"
+    >
       <div className="max-w-7xl mx-auto px-6">
 
-        <h2 className="text-4xl md:text-5xl font-bold text-center mb-12 text-white">
+        <h2 className="text-4xl md:text-5xl font-bold text-center mb-6 text-black-800">
           Conference Tracks
         </h2>
 
-        <p className="text-center text-gray-300 mb-10 max-w-3xl mx-auto">
+        <p className="text-center text-slate-600 mb-14 max-w-3xl mx-auto">
           Papers are called for, but not limited to, the following topics
         </p>
 
         {/* GRID */}
-        <div className="grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-4 auto-rows-fr">
+        <div className="grid gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-4 auto-rows-fr">
 
           {tracks.map((track, idx) => (
             <motion.div
               key={idx}
               whileHover={{ scale: 1.05 }}
               onClick={() => setActiveTrack(track)}
-              className="cursor-pointer bg-slate-800 rounded-2xl p-6
-                         border border-white/10 shadow-md
-                         hover:shadow-xl transition"
+              className="
+                cursor-pointer rounded-2xl p-6
+                bg-white/80 backdrop-blur
+                border border-slate-200
+                shadow-sm
+                hover:border-sky-400
+                hover:shadow-[0_10px_40px_rgba(56,189,248,0.25)]
+                transition-all duration-300
+              "
             >
-              <h3 className="text-lg font-semibold text-violet-400">
+              <h3 className="text-lg font-semibold text-indigo-600">
                 {track.title}
               </h3>
 
-              <p className="mt-4 text-sm text-indigo-300">
+              <p className="mt-4 text-sm font-medium text-sky-600">
                 View topics →
               </p>
             </motion.div>
@@ -269,49 +490,67 @@ export default function ConferenceTracks() {
         </div>
       </div>
 
-      {/* MODAL */}
-      <AnimatePresence>
-        {activeTrack && (
-          <motion.div
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            exit={{ opacity: 0 }}
-            className="fixed inset-0 z-50 flex items-center justify-center bg-black/50"
-            onClick={()=> setActiveTrack(null)}
+      {/* MODAL – LIGHT / PREMIUM */}
+<AnimatePresence>
+  {activeTrack && (
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+      className="
+        fixed inset-0 z-50 flex items-center justify-center
+        bg-gradient-to-br from-indigo-100/70 via-sky-100/70 to-violet-100/70
+        backdrop-blur-md
+      "
+      onClick={() => setActiveTrack(null)}
+    >
+      <motion.div
+        initial={{ scale: 0.9, y: 30 }}
+        animate={{ scale: 1, y: 0 }}
+        exit={{ scale: 0.9, y: 30 }}
+        transition={{ duration: 0.25, ease: 'easeOut' }}
+        onClick={(e) => e.stopPropagation()}
+        className="
+          bg-white/90 backdrop-blur-xl
+          rounded-2xl max-w-2xl w-full mx-4
+          border border-slate-200
+          shadow-2xl
+          shadow-[0_20px_60px_-15px_rgba(99,102,241,0.35)]
+        "
+      >
+        {/* Header */}
+        <div className="flex justify-between items-center p-6 border-b border-slate-200">
+          <h3 className="text-xl font-semibold text-indigo-700">
+            {activeTrack.title}
+          </h3>
+          <button
+            onClick={() => setActiveTrack(null)}
+            className="
+              text-slate-400 hover:text-slate-700
+              text-xl transition
+            "
           >
-            <motion.div
-              initial={{ scale: 0.9, y: 30 }}
-              animate={{ scale: 1, y: 0 }}
-              exit={{ scale: 0.9, y: 30 }}
-              transition={{ duration: 0.25 }}
-              className="bg-slate-900 rounded-2xl max-w-2xl w-full mx-4 shadow-xl border border-white/10"
-              onClick={(e)=> e.stopPropagation()}
-            >
-              {/* Header */}
-              <div className="flex justify-between items-center p-6 border-b border-white/10">
-                <h3 className="text-xl font-semibold text-violet-400">
-                  {activeTrack.title}
-                </h3>
-                <button
-                  onClick={() => setActiveTrack(null)}
-                  className="text-gray-400 hover:text-white text-xl"
-                >
-                  ✕
-                </button>
-              </div>
+            ✕
+          </button>
+        </div>
 
-              {/* Content */}
-              <div className="p-6">
-                <ul className="list-disc list-inside space-y-2 text-gray-300">
-                  {activeTrack.points.map((point, i) => (
-                    <li key={i}>{point}</li>
-                  ))}
-                </ul>
-              </div>
-            </motion.div>
-          </motion.div>
-        )}
-      </AnimatePresence>
+        {/* Content */}
+        <div className="p-6">
+          <ul className="list-disc list-inside space-y-2 text-slate-700">
+            {activeTrack.points.map((point, i) => (
+              <li key={i}>{point}</li>
+            ))}
+          </ul>
+        </div>
+      </motion.div>
+    </motion.div>
+  )}
+</AnimatePresence>
+
     </section>
+    
   )
+
+  
 }
+

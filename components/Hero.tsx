@@ -20,57 +20,115 @@
 // }
 
 'use client'
+
 import { motion } from 'framer-motion'
 import Image from 'next/image'
 
 export default function Hero() {
   return (
-    <section className="min-h-screen pt-0 flex items-center justify-center text-center px-6 bg-gradient-to-br from-indigo-700 via-purple-700 to-pink-700">
-      <motion.div
-        initial={{ opacity: 0, y: 40 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.8 }}
-        className="flex flex-col items-center"
-      >
-        {/* Logo above the title */}
-        <div className="mb-6">
-          <Image
-            src="/logo.jpg"       // put your logo in public/logo.png
-            alt="ICAETM 2026 Logo"
-            width={120}
-            height={120}
-            
-          />
-        </div>
+    <section className="relative min-h-screen w-full overflow-hidden">
 
-        {/* Main heading */}
-       
-        <h1 className="text-5xl md:text-5xl  mb-6">ICAETM 2026</h1>
+      {/* ================= Background Image ================= */}
+      <Image
+        src="/about/pvgcoet.jpg"   // full campus / college image
+        alt="PVG COETM Campus"
+        fill
+        priority
+        className="object-cover"
+      />
 
-        {/* Subheading */}
-        <p className="text-xl md:text-2xl text-white mb-4">
-          International Conference on Advances in Engineering Technology & Management - 2026
-        </p>
+      {/* ================= Dark Gradient Overlay ================= */}
+      <div className="
+        absolute inset-0
+        bg-gradient-to-b
+        from-black/70
+        via-black/55
+        to-black/80
+      " />
 
-        {/* Date & location */}
-        <p className="text-white mb-8">March 18–20, 2026 · Pune, India</p>
+      {/* ================= Content ================= */}
+      <div className="relative z-10 min-h-screen flex items-center justify-center px-6">
+        <motion.div
+          initial={{ opacity: 0, y: 40 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.9, ease: 'easeOut' }}
+          className="max-w-4xl text-center flex flex-col items-center"
+        >
 
-        {/* Buttons */}
-        <div className="flex gap-4 justify-center">
-          <a
-            className="px-6 py-3 bg-black/30 text-white rounded-xl hover:bg-black/50 transition-colors"
-            href="https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2F"
-          >
-            Register Now
-          </a>
-          <a
-            className="px-6 py-3 border border-white/40 text-white rounded-xl hover:bg-white/10 transition-colors"
-            href="#speakers"
-          >
-            View Speakers
-          </a>
-        </div>
-      </motion.div>
+          {/* Logo */}
+          <div className="mb-8">
+            <Image
+              src="/logo.jpg"
+              alt="ICAETM 2026 Logo"
+              width={140}
+              height={140}
+              className="full shadow-2xl"
+            />
+          </div>
+
+          {/* Conference Title */}
+          <h1 className="
+            text-white
+            text-4xl md:text-6xl
+            font-semibold
+            tracking-wide
+            mb-6
+          ">
+            ICAETM <span className="text-indigo-400">2026</span>
+          </h1>
+
+          {/* Subtitle */}
+          <p className="
+            text-slate-200
+            text-lg md:text-2xl
+            leading-relaxed
+            mb-4
+          ">
+            International Conference on Advances in
+            Engineering, Technology & Management
+          </p>
+
+          {/* Date & Location */}
+          <p className="text-slate-300 mb-10 tracking-wide">
+            March 18–20, 2026 · Pune, India
+          </p>
+
+          {/* Action Buttons */}
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+
+            <a
+              href="https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2F"
+              target="_blank"
+              className="
+                px-8 py-3
+                rounded-full
+                bg-indigo-600 text-white
+                hover:bg-indigo-500
+                transition-all
+                shadow-lg hover:shadow-xl
+              "
+            >
+              Register Now
+            </a>
+
+            <a
+              href="#speakers"
+              className="
+                px-8 py-3
+                rounded-full
+                border border-white/40
+                text-white
+                hover:bg-white/10
+                transition-all
+              "
+            >
+              View Speakers
+            </a>
+
+          </div>
+
+        </motion.div>
+      </div>
     </section>
   )
 }
