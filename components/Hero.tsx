@@ -56,7 +56,7 @@ export default function Hero() {
         >
 
           {/* Logo */}
-          <div className="mb-8">
+          {/* <div className="mb-8">
             <Image
               src="/logo.jpg"
               alt="ICAETM 2026 Logo"
@@ -64,7 +64,7 @@ export default function Hero() {
               height={140}
               className="full shadow-2xl"
             />
-          </div>
+          </div> */}
 
           {/* Conference Title */}
           <h1 className="
@@ -72,7 +72,7 @@ export default function Hero() {
             text-4xl md:text-6xl
             font-semibold
             tracking-wide
-            mb-6
+            mb-4
           ">
             ICAETM <span className="text-indigo-400">2026</span>
           </h1>
@@ -90,7 +90,7 @@ export default function Hero() {
 
           {/* Date & Location */}
           <p className="text-slate-300 mb-10 tracking-wide">
-            March 18–20, 2026 · Pune, India
+            July 2–3, 2026 · Pune, India
           </p>
 
           {/* Action Buttons */}

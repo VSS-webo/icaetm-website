@@ -474,7 +474,15 @@ export default function Committee() {
     
     <section
         id="committee"
-        className="py-20 bg-gradient-to-b from-slate-100 to-white"
+        // className="py-20 bg-gradient-to-b from-slate-100 to-white"
+        className="
+            py-24
+            bg-gradient-to-br
+            from-sky-50
+            via-indigo-50
+            to-violet-50
+            "
+
     >
 
       <div className="max-w-7xl mx-auto px-6">
@@ -634,21 +642,50 @@ export default function Committee() {
 
           <div className="max-w-4xl mx-auto grid grid-cols-1 sm:grid-cols-2 gap-x-10 gap-y-4">
             {[
-              'Dr. Dipak S. Patil',
-              'Dr. Prasanna G. Shete',
-              'Prof. Mrs. Madhura P. Mahajan',
-              'Dr. Mangesh S. Thakare',
-              'Dr. Surendra A. Mahajan',
-              'Prof. Mrs. Urmila M. Kalshetti',
-              'Dr. Mrs. Minakshi P. Atre',
-              'Prof. Mrs. Anjali S. Waghmare',
-              'Dr. Mrs. Smita R. Temgire',
-              'Dr. Mahesh P. Potdar',
-              'Prof. Omkar S. Pawaskar',
-              'Dr. Mrs. Ujjawala S. Thakar',
-              'Dr. Naresh G. Jaiswal',
-              'Dr. Pravin G. Kulkarni',
-            ].map((name, idx) => (
+              {name:'Dr. Dipak S. Patil',
+                role:'Registrar, PVG’s COETM, Pune ',
+              },
+
+              {name:'Dr. Prasanna G. Shete',
+                role:'Head, E&TC Engg.',
+              },
+              {name:'Prof. Mrs. Madhura P. Mahajan',
+                role:'Head of Print. Packg. Tech ',
+              },
+              {name:'Dr. Mangesh S. Thakare',
+                role:'Head of Electrical Engg.',
+              },
+              {name:'Dr. Surendra A. Mahajan',
+                role:'Head, IT',
+              },
+              {name:'Prof. Mrs. Urmila M. Kalshetti',
+                role:'Head, Comp. Engg.',
+              },
+              {name:'Dr. Mrs. Minakshi P. Atre',
+                role:'Head, AIDS',
+              },
+              {name:'Prof. Mrs. Anjali S. Waghmare',
+                role:'Head, Applied Science',
+              },
+              {name:'Dr. Mrs. Smita R. Temgire',
+                role:'Head MBA',
+              },
+              {name:'Dr. Mahesh P. Potdar',
+                role:'Dean Academics',
+              },
+              {name:'Prof. Omkar S. Pawaskar',
+                role:'CEO, PVG’s COETM, Pune ',
+              },
+              {name:'Dr. Mrs. Ujjawala S. Thakar',
+                role:'Dean NBA ',
+              },
+              {name:'Dr. Naresh G. Jaiswal',
+                role:'Dean Faculty Development ',
+              },
+              {name:'Dr. Pravin G. Kulkarni',
+                role:'Dean Quality Assurance ',
+              },
+            ].map((member, idx) => (
               <div
                 key={idx}
                 className="
@@ -662,7 +699,8 @@ export default function Committee() {
                   p-6
                 "
               >
-                <p className="text-slate-800 font-medium">{name}</p>
+                <p className="text-black-800 font-medium">{member.name}</p>
+                <p className='text-slate-600 text-sm mt-1'>{member.role}</p>
               </div>
             ))}
           </div>

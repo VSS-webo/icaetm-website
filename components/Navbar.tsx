@@ -190,6 +190,7 @@
 import { useEffect, useState, useRef } from 'react'
 import Link from 'next/link'
 import { motion, AnimatePresence } from 'framer-motion'
+import Publications from './Publication'
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false)
@@ -259,6 +260,7 @@ export default function Navbar() {
             {[
               ['About', '#about'],
               ['Tracks', '#conference-track'],
+              ['Publications', '#publications'],
               ['Important Dates', '#important-dates'],
               ['Committee', '#committee'],
               ['Registration', '#Registration'],

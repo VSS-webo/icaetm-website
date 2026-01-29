@@ -442,15 +442,17 @@ export default function About() {
           className="max-w-4xl mx-auto text-center"
         >
           <h2 className="text-4xl md:text-5xl font-semibold text-slate-800 mb-6">
-            About ICAETM 2026
+            About ICAETM-2026
           </h2>
 
           <p className="text-slate-600 text-lg leading-relaxed">
-            The International Conference on Advances in Engineering, Technology
-            and Management (ICAETM-2026) provides a distinguished global forum
-            for academicians, researchers, industry professionals, and students
-            to exchange innovative ideas, present original research, and
-            deliberate on emerging challenges and sustainable solutions.
+            The International Conference on Advances in Engineering, Technology, and Management 
+            (ICAETM-2026), organized by PVG’s COETM, Pune, aims to bring together academicians, researchers, 
+            industry experts, and students on a common global platform. The conference focuses on recent 
+            innovations, interdisciplinary research, and sustainable engineering solutions across diverse domains. 
+            ICAETM-2026 will feature keynote talks, technical sessions, and peer-reviewed paper presentations, 
+            with selected papers considered for publication in reputed Scopus-indexed journals/proceedings, 
+            fostering knowledge exchange and global collaboration
           </p>
         </motion.div>
 

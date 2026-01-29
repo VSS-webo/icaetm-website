@@ -80,6 +80,7 @@ import Committee from '@/components/Committee'
 import ImportantDates from '@/components/Important-dates'
 import AdvisorySection from '@/components/international-advisory'
 import NationalAdvisorySection from '@/components/national-advisory'
+import Publications from '@/components/Publication'
 
 
 export default function Home(){
@@ -89,6 +90,7 @@ export default function Home(){
       <Hero />      
       <About /> 
       <ConferenceTracks/>
+      <Publications/>
       <Committee/>
       <Speakers />
       <ImportantDates/>
