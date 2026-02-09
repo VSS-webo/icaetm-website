@@ -11,7 +11,7 @@ export default function Acknowledge(){
 
         
           <h3 className= "text-4xl md:text-5xl font-semibold text-center mb-5 text-slate-800">
-            CMT Acknowledgement
+            Acknowledgement
           </h3>
 
           <p className="text-slate-600 text-lg leading-relaxed">

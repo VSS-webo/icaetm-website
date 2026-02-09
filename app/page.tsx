@@ -97,10 +97,10 @@ export default function Home(){
       <ImportantDates/>
       <Schedule />
       <Registration/>
-      <Acknowledge/>
+      
       <AdvisorySection/>
       <NationalAdvisorySection/>
-      
+      <Acknowledge/>
       <Venue />
       <Sponsors />
       <Footer />
