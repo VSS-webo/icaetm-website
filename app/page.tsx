@@ -81,6 +81,7 @@ import ImportantDates from '@/components/Important-dates'
 import AdvisorySection from '@/components/international-advisory'
 import NationalAdvisorySection from '@/components/national-advisory'
 import Publications from '@/components/Publication'
+import Acknowledge from '@/components/Acknowledgement'
 
 
 export default function Home(){
@@ -98,6 +99,7 @@ export default function Home(){
       <Registration/>
       <AdvisorySection/>
       <NationalAdvisorySection/>
+      <Acknowledge/>
       <Venue />
       <Sponsors />
       <Footer />
