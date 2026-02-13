@@ -76,7 +76,7 @@ export default function AdvisorySection() {
     { name: 'Dr. Apurav Koyande', affiliation: 'Universiti Teknologi Petronas, Malaysia' },
     { name: 'Dr. Zuhaina Zakaria', affiliation: 'MARA University of Technology, Malaysia' },
     { name: 'Dr. Arvind R. Singh', affiliation: 'Hanjiang Normal University, Hubei Shiyan, China' },
-    { name: 'Dr. Palanivel R. Velmurugan', affiliation: 'Berlin School of Business and Innovation, Germany' },
+    { name: 'Dr. Palanivel Rathinasabapathi Velmurugan', affiliation: 'Berlin School of Business and Innovation, Germany' },
     { name: 'Dr. Juntakan Taweekun', affiliation: 'Prince of Songkla University (PSU), Thailand' },
     { name: 'Dr. Parmal Singh Solanki', affiliation: 'University of Technology and Applied Sciences, Oman' },
     { name: 'Dr. Nitin S. Goje', affiliation: 'Webster University, Tashkent, Uzbekistan' },
@@ -104,6 +104,7 @@ export default function AdvisorySection() {
           text-slate-800
           mb-6
         ">
+          
           International Advisory Committee
         </h2>
 

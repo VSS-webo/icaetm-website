@@ -82,7 +82,7 @@ import AdvisorySection from '@/components/international-advisory'
 import NationalAdvisorySection from '@/components/national-advisory'
 import Publications from '@/components/Publication'
 import Acknowledge from '@/components/Acknowledgement'
-
+import AboutPune from '@/components/about-pune'
 
 export default function Home(){
   return(
@@ -93,13 +93,16 @@ export default function Home(){
       <ConferenceTracks/>
       <Publications/>
       <Committee/>
-      <Speakers />
-      <ImportantDates/>
-      <Schedule />
-      <Registration/>
-      
-      <AdvisorySection/>
+      <AdvisorySection/>  
       <NationalAdvisorySection/>
+      <ImportantDates/>
+      <Registration/>    
+      
+      <Speakers />
+      
+      
+      
+      <AboutPune/>
       <Acknowledge/>
       <Venue />
       <Sponsors />

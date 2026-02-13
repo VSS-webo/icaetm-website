@@ -261,12 +261,13 @@ export default function Navbar() {
               ['About', '#about'],
               ['Tracks', '#conference-track'],
               ['Publications', '#publications'],
-              ['Imp Dates', '#important-dates'],
               ['Committee', '#committee'],
+              ['Imp Dates', '#important-dates'],
+              
               ['Registration', '#Registration'],
               ['Acknowledgement', '#acknowledgement'],
               ['Speakers', '#speakers'],
-              ['Schedule', '#schedule'],
+              
               ['Venue', '#venue'],
             ].map(([label, href]) => (
               <a

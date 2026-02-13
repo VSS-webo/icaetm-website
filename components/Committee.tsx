@@ -628,16 +628,77 @@ export default function Committee() {
           </div>
         </motion.div>
 
+
+        <motion.div
+        initial={{ opacity: 0, y: 20 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true }}
+        transition={{ duration: 0.5, delay: 0.15 }}
+        className="mt-20"
+        >
+        <h3 className="text-3xl font-semibold text-violet-600 mb-4 text-center">
+            Coordinators
+        </h3>
+
+        <div className="max-w-4xl mx-auto grid grid-cols-1 sm:grid-cols-2 gap-x-10 gap-y-3">
+
+            {[
+            {
+                name: 'Dr. Shubhangi M. Gondane',
+                role: 'Dept. of Mechanical Engg.',
+                email: 'smg_mech@pvgcoet.ac.in',
+                mobile: '+91 9326062418'
+            },
+            {
+                name: 'Dr. Ganesh Vijay More',
+                role: 'Dept. of Mechanical Engg.',
+                email: 'gvm_mech@pvgcoet.ac.in',
+                mobile: '+91 7387031919',
+            }
+        ].map((member, idx) => (
+            <div
+                key={idx}
+                
+                className="
+                  bg-white
+                  rounded-2xl
+                  border border-slate-200
+                  shadow-sm
+                  hover:border-violet-400
+                  hover:ring-1 hover:ring-violet-300/40
+                  transition-all duration-300
+                  p-6
+                "
+                >
+                <p className="text-black font-medium">
+                {member.name}
+                </p>
+                <p className="text-slate-700 text-sm mt-1">
+                {member.role}
+                </p>
+                <p className="text-slate-700 text-sm mt-1">
+                {member.email}
+                </p>
+                <p className="text-slate-700 text-sm mt-1">
+                {member.mobile}
+                </p>
+            </div>
+            ))}
+
+        </div>
+        </motion.div>
+
         {/* ===== Programme Chair ===== */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.5 }}
-          className="mb-20"
+          className="mt-28 mb-20"
+
         >
-          <h3 className="text-3xl font-semibold text-violet-600 mb-6 text-center">
-            Programme Chair
+          <h3 className="text-3xl font-semibold text-violet-600 mb-7 text-center">
+            Local Advisory Committee
           </h3>
 
           <div className="max-w-4xl mx-auto grid grid-cols-1 sm:grid-cols-2 gap-x-10 gap-y-4">
@@ -706,64 +767,7 @@ export default function Committee() {
           </div>
         </motion.div>
 
-        <motion.div
-        initial={{ opacity: 0, y: 20 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        viewport={{ once: true }}
-        transition={{ duration: 0.5, delay: 0.15 }}
-        className="mt-20"
-        >
-        <h3 className="text-3xl font-semibold text-violet-600 mb-4 text-center">
-            Coordinators
-        </h3>
-
-        <div className="max-w-4xl mx-auto grid grid-cols-1 sm:grid-cols-2 gap-x-10 gap-y-3">
-
-            {[
-            {
-                name: 'Dr. Shubhangi M. Gondane',
-                role: 'Dept. of Mechanical Engg.',
-                email: 'smg_mech@pvgcoet.ac.in',
-                mobile: '+91 9326062418'
-            },
-            {
-                name: 'Dr. Ganesh Vijay More',
-                role: 'Dept. of Mechanical Engg.',
-                email: 'gvm_mech@pvgcoet.ac.in',
-                mobile: '+91 7387031919',
-            }
-        ].map((member, idx) => (
-            <div
-                key={idx}
-                
-                className="
-                  bg-white
-                  rounded-2xl
-                  border border-slate-200
-                  shadow-sm
-                  hover:border-violet-400
-                  hover:ring-1 hover:ring-violet-300/40
-                  transition-all duration-300
-                  p-6
-                "
-                >
-                <p className="text-black font-medium">
-                {member.name}
-                </p>
-                <p className="text-slate-700 text-sm mt-1">
-                {member.role}
-                </p>
-                <p className="text-slate-700 text-sm mt-1">
-                {member.email}
-                </p>
-                <p className="text-slate-700 text-sm mt-1">
-                {member.mobile}
-                </p>
-            </div>
-            ))}
-
-        </div>
-        </motion.div>
+        
 
 
 
@@ -779,10 +783,10 @@ export default function Committee() {
             Organizing Committee
         </h3>
 
-        <p className="text-center text-black-300 mb-10 max-w-3xl mx-auto">
+        {/* <p className="text-center text-black-300 mb-10 max-w-3xl mx-auto">
             Members of the Organizing Committee contributing to the planning and
             execution of ICAETM-2026.
-        </p>
+        </p> */}
 
         <div className="max-w-4xl mx-auto grid grid-cols-1 sm:grid-cols-2 gap-x-10 gap-y-3">
 
@@ -790,42 +794,63 @@ export default function Committee() {
             {
                 name: 'Prof. Radha A. Ranjekar',
                 role: 'Dept. of Elect. Engg',
+                email: 'rar_elect@pvgcoet.ac.in',
+                mobile: '+91 9881901790'
             },
             {
                 name: 'Prof. Satish G. Kamble',
                 role: 'Dept. of IT',
+                email: 'sgk_it@pvgcoet.ac.in',
+                mobile: '+91 9822853296'
+                
             },
             {
                 name: 'Prof. Anand S. Najan',
                 role: 'Dept. of E&TC Engg.',
+                email: 'asn_entc@pvgcoet.ac.in',
+                mobile: '+91 9028645023'
             },
             {
                 name: 'Prof. Aditya G. Dongare',
                 role: 'Dept. of Comp. Engg.',
+                email: 'agd_comp@pvgcoet.ac.in',
+                mobile: '+91 9372912735'
             },
             {
                 name: 'Prof. Ravindra H. Mule',
                 role: 'Dept. of AIDS',
+                email: 'rhm_comp@pvgcoet.ac.in',
+                mobile: '+91 9822497779'
             },
             {
                 name: 'Dr. Kalpana S. Lodha',
                 role: 'Dept. of MBA',
+                email: 'ksl_mba@pvgcoet.ac.in',
+                mobile: '+91 9922137285'
             },
             {
                 name: 'Prof. Chittaranjan R. More',
                 role: 'Dept. of Mech. Engg.',
+                email: 'crm_mech@pvgcoet.ac.in',
+                mobile: '+91 9422384226'
             },
             {
                 name: 'Dr. Sachin R. Suryawanshi',
                 role: 'Dept. of Applied Science',
+                email: 'srs_fe@pvgcoet.ac.in',
+                mobile: '+91 9763363966'
             },
             {
                 name: 'Prof. Amit K. Redhu',
                 role: 'Dept. of Print. Packg. Tech',
+                email: 'akr_print@pvgcoet.ac.in',
+                mobile: '+91 9467024324'
             },
             {
                 name: 'Dr. Mahesh B. Naikwade',
                 role: 'Dept. of Applied Science',
+                email: 'mbn_fe@pvgcoet.ac.in',
+                mobile: '+91 7775831259'
             }
 
 
@@ -849,6 +874,13 @@ export default function Committee() {
                 </p>
                 <p className="text-slate-600 text-sm mt-1">
                 {member.role}
+                </p>
+                <p className="text-slate-600 text-sm mt-1">
+                {member.email}
+                </p>
+                <p className="text-slate-600 text-sm mt-1">
+                {member.mobile}
+                
                 </p>
             </div>
             ))}

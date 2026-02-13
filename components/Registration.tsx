@@ -215,20 +215,21 @@ export default function Registration() {
                   Participant
                 </th>
                 <th className="py-4 px-5 font-medium border-r border-slate-500">
-                  Early Bird (Before DD/MM/2026)
+                  Early Bird (Before 20 March 2026)
                 </th>
                 <th className="py-4 px-5 font-medium">
-                  Registration (After DD/MM/2026)
+                  Registration (After 20 March 2026)
                 </th>
               </tr>
             </thead>
 
             <tbody className="divide-y divide-slate-200">
               {[
-                ['International Delegates', '$ 100 USD', '$ 130 USD'],
-                ['Industry Professionals', 'Rs. 8,000/-', 'Rs. 10,000/-'],
-                ['Academician', 'Rs. 7,000/-', 'Rs. 8,500/-'],
-                ['PG & UG Students', 'Rs. 5,000/-', 'Rs. 6,000/-'],
+                ['International Delegates', '$ 130 USD', '$ 150 USD'],
+                ['Industry Professionals', 'Rs. 9,000/-', 'Rs. 10,000/-'],
+                ['Academician', 'Rs. 7,000/-', 'Rs. 8,000/-'],
+                ['Research Scholar', 'Rs. 5,000/-','Rs. 6,000/-'],
+                ['PG & UG Students', 'Rs. 4,000/-', 'Rs. 5,000/-'],
               ].map(([role, early, late], i) => (
                 <tr
                   key={i}
@@ -276,10 +277,11 @@ export default function Registration() {
           ">
             {[
               ['Bank Name', 'Bank of India'],
+              ['Account Name', 'PVGCOET ALLIED ACTIVITES CENTER'],
               ['Branch', 'Swargate, Pune'],
               ['Account Number', '050810110003595'],
               ['IFSC Code', 'BKID0000508'],
-              ['Account Name', 'PVGCOET ALLIED ACTIVITES CENTER'],
+              
             ].map(([label, value], i) => (
               <div
                 key={i}
@@ -332,18 +334,28 @@ export default function Registration() {
             text-sm md:text-base
             leading-relaxed
           ">
-            <li>Uploading of articles will be done through <span className="font-medium text-slate-900">Microsoft CMT</span>.</li>
-            <li>The paper should be submitted with a plagiarism report of up to 15%.</li>
+            <li>Uploading of articles will be done through Microsoft CMT.</li>
+            <li>The paper should be submitted with a plagiarism report of up to 15%(Turnitin), 10%(Drillbit).</li>
             <li>The conference registration fees do not include the journal publication charges.</li>
-            <li>Papers should be written in <span className="font-medium text-slate-900">English</span>.</li>
-            <li>Conference registration is mandatory for at least <span className="font-medium text-slate-900">one author</span>.</li>
-            <li>Participants may present their work in <span className="font-medium text-slate-900">online or offline mode</span>.</li>
-            <li>Accepted papers may be recommended to <span className="font-medium text-slate-900">Scopus-indexed journals</span>.</li>
-            <li>Awards will be presented for the <span className="font-medium text-slate-900">best papers</span>.</li>
+            <li>High-quality accepted and presented papers will be considered for recommendation to Scopus indexed journals after an additional peer-review process.</li>
+
             <li>
-              All updates will be communicated via
-              <span className="font-medium text-slate-900"> icaetm2026@pvgcoet.ac.in</span>
+              The registration fee at the conference applies to one participant only (physical attendance). 
+              For additional participants, extra charges will be applicable as follows:
+
+              <ul className="list-disc ml-6 mt-2">
+                <li>₹2000 for Academicians and $50 USD for International Participants</li>
+                <li>₹1000 for Research Scholars, UG/PG Students</li>
+                
+              </ul>
             </li>
+
+            <li>Papers should be in English, and page limits changed according to journal policy. </li>
+            <li>The participants across the globe shall present their ideas in online/offline modes as per their choice.</li>
+            <li>There will be an award for the best papers.</li>
+            <li>Updates will be provided by conference mail id (icaetm2026@pvgcoet.ac.in)</li>
+            
+            
           </ul>
         </div>
 

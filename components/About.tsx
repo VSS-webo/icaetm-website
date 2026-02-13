@@ -420,11 +420,14 @@ const punePlaces = [
   { src: '/pune/torna.jpg', name: 'Torna Fort' },
   { src: '/pune/lohagad.jpg', name: 'Lohagad Fort' },
   { src: '/pune/shivneri.jpg', name: 'Shivneri Fort' },
+  {src: '/pune/AgaKhan.png', name:'Aga Khan Palace'},
+  {src: '/pune/DinkarKelkar.png', name:'Raja Dinkar Kelkar Museum'},
+  {src: '/pune/LalMahal.png', name:'Laal Mahal'},
 ]
 
 export default function About() {
   const [showPVG, setShowPVG] = useState(false)
-  const [showCOETM, setShowCOETM] = useState(false)
+  const [showCOETM, setShowCOETM] =   useState(false)
 
   return (
     <section
@@ -446,13 +449,13 @@ export default function About() {
           </h2>
 
           <p className="text-slate-600 text-lg leading-relaxed">
-            The International Conference on Advances in Engineering, Technology, and Management 
-            (ICAETM-2026), organized by PVG’s COETM, Pune, aims to bring together academicians, researchers, 
-            industry experts, and students on a common global platform. The conference focuses on recent 
-            innovations, interdisciplinary research, and sustainable engineering solutions across diverse domains. 
-            ICAETM-2026 will feature keynote talks, technical sessions, and peer-reviewed paper presentations, 
-            with selected papers considered for publication in reputed Scopus-indexed journals/proceedings, 
-            fostering knowledge exchange and global collaboration
+            The International Conference on Advances in Engineering, Technology, and Management
+            (ICAETM-2026), organized by PVG’s COETM, Pune, aims to bring together academicians, researchers,
+            industry experts, and students on a common global platform. The conference focuses on recent
+            innovations, interdisciplinary research, and sustainable engineering solutions across diverse domains.
+            ICAETM-2026 will feature keynote talks, technical sessions, and peer-reviewed paper presentations,
+            with selected papers considered for publication in reputed Scopus-indexed journals/proceedings,
+            fostering knowledge exchange and global collaboration.
           </p>
         </motion.div>
 
@@ -494,10 +497,10 @@ export default function About() {
               >
                 PVG
               </a>
-              ), formerly known as Pune Anath Vidyarthi
-              Griha, is a prestigious charitable educational institution established in 1909 by visionary
+              ), formerly known as Pune Anath
+              Vidyarthi Griha, is a prestigious charitable educational institution established in 1909 by visionary
               educationists with the mission of providing inclusive, value-based, and quality education to
-              deserving sections of society.
+              deserving sections of society. 
             </p>
 
             <motion.div
@@ -513,10 +516,9 @@ export default function About() {
               
               <p className="mt-4 text-slate-600 leading-relaxed text-lg">
                 Over the past century, PVG has evolved into a comprehensive
-                educational organization with institutions in Pune, Mumbai,
-                and Nashik, offering programs from pre-primary to higher
-                education across engineering, management, science, and allied
-                disciplines.
+                educational organization with institutions located in Pune, Mumbai, and Nashik, offering academic
+                programs from pre-primary to higher education across engineering, technology, management,
+                science, and allied disciplines.
               </p>
 
               <p className="mt-4 text-slate-600 leading-relaxed text-lg">
@@ -528,7 +530,7 @@ export default function About() {
                 With a strong legacy of innovation, research, and technical publishing through its modern
                 printing and publications division, PVG provides an ideal academic ecosystem for hosting
                 international conferences that foster knowledge exchange, interdisciplinary research, and
-                global collaboration
+                global collaboration.
               </p>
             </motion.div>
 
@@ -567,17 +569,18 @@ export default function About() {
 
           <div>
             <h3 className="text-3xl font-semibold text-indigo-700 mb-5">
-              PVG’s College of Engineering, Technology & Management
+              PVG’s COETM, Pune-09
             </h3>
 
             <p className="text-slate-600 leading-relaxed text-lg">
-              PVG’s COETM, Pune (
+              Pune Vidyarthi Griha’s College of Engineering, Technology and Management (PVG’s COETM),
+Pune, India (
               <a
                 href="https://www.pvgcoet.ac.in/"
                 target="_blank"
                 className="text-indigo-600 hover:underline"
               >
-                PVGCOET
+                PVGCOETM
               </a>
               )  established in 1985, is a premier autonomous institute
               permanently affiliated to Savitribai Phule Pune University (SPPU) and approved by AICTE. The
@@ -618,7 +621,7 @@ export default function About() {
         </motion.div>
 
         {/* ================= About Pune ================= */}
-        <motion.div
+        {/* <motion.div
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
@@ -631,12 +634,12 @@ export default function About() {
           <p className="text-center text-slate-600 max-w-4xl mx-auto mb-14 text-lg">
             Pune, a major city in the state of Maharashtra, is situated at the confluence of the Mula and Mutha rivers and is
             known for its rich cultural heritage and academic excellence. Often called the “Oxford of the East,” Pune hosts
-            several renowned universities, research institutions, and centers of higher learning. The city’s historical legacy
-            is reflected in historic landmarks such as Shaniwar Wada, Sinhagad, Purandar, Lohagad, Torna, and
-            Shivneri, which stand as symbols of the region’s glorious past. Along with its historical significance, Pune has
-            emerged as a leading industrial and technological hub with a strong presence in automobile manufacturing,
-            information technology, electronics, and engineering industries, making it an ideal destination for international
-            conferences and academic collaboration
+            several renowned universities, research institutions, and centers of higher learning. The city’s historical
+            legacy is reflected in historic landmarks such as Shaniwar Wada, Sinhagad, Purandar, Lohagad, Torna, and
+            Shivneri, etc. which stand as symbols of the region’s glorious past. Along with its historical significance, Pune
+            has emerged as a leading industrial and technological hub with a strong presence in automobile
+            manufacturing, information technology, electronics, and engineering industries, making it an ideal
+            destination for international conferences and academic collaboration.
           </p>
 
 
@@ -668,9 +671,11 @@ export default function About() {
               </div>
             ))}
           </div>
-        </motion.div>
+        </motion.div> */}
 
       </div>
     </section>
   )
 }
+
+

@@ -5,7 +5,7 @@ import Image from 'next/image'
 
 const publications = [
   { src: '/publications/C_Series.jpeg', alt: 'C Series' },
-  { src: '/publications/CompSciJournal.jpeg', alt: 'Computer Science Journal' },
+  { src: '/publications/Scientific-net.png', alt: 'Scientific Net Journal' },
   { src: '/publications/IJECS.jpeg', alt: 'IJECS' },
   { src: '/publications/Polymer.jpeg', alt: 'Polymer Journal' },
   { src: '/publications/Sigma.jpeg', alt: 'Sigma Journal' },
@@ -32,15 +32,19 @@ export default function Publications() {
       <div className="max-w-7xl mx-auto px-6">
 
         {/* Heading */}
-        <h3 className="text-3xl md:text-4xl font-semibold text-black-800 mb-6">
-          Publications
+        <h3 className="text-center text-5xl md:text4xl font-semibold text-black-800 mb-6">
+          Publication Details
         </h3>
 
         {/* Description */}
-        <p className="text-slate-800 text-center leading-relaxed max-w-5xl mx-auto mb-16">
-        All accepted and presented papers of ICAETM 2026 will be considered
-        for publication in reputed journals and conference proceedings,
-        subject to peer review, quality standards, and publisher guidelines.
+        
+        <p className='text-center text-slate-600 max-w-6xl mx-auto mb-14 text-lg'>
+        All accepted abstracts will be published in the Conference Abstract Proceedings. Selected full-length
+        papers will be forwarded for possible publication in reputed journals indexed such as Scopus, Web
+        of Science (WoS), and Google Scholar, subject to editorial review and publisher approval. Selected
+        papers may also be considered for publication in a book with an ISBN.
+        Please note that any additional publication charges, if applicable, will be borne by the authors as per
+        the publisher’s policy
         </p>
 
 
