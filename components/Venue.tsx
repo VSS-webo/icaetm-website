@@ -173,7 +173,7 @@ export default function VenueContact() {
               <p>
                 <span className="font-bold text-black-900">Email:</span>{' '}
                 <a
-                  href="mailto:info@icaetm2026.com"
+                  href="mailto:icaetm2026.@pvgcoet.ac.in"
                   className="text-indigo-600 hover:underline"
                 >
                   icaetm2026@pvgcoet.ac.in
@@ -183,7 +183,7 @@ export default function VenueContact() {
               <p>
                 <span className="font-bold text-black-900">Phone:</span>{' '}
                 <a
-                  href="tel:+91xxxxxxxxxx"
+                  href="tel:+91020 24228258 / 65 / 79"
                   className="text-indigo-600 hover:underline"
                 >
                   +91 020 24228258 / 65 / 79
