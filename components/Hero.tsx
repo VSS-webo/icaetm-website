@@ -30,7 +30,7 @@ export default function Hero() {
 
       {/* ================= Background Image ================= */}
       <Image
-        src="/about/pvgcoet.jpg"   // full campus / college image
+        src="/about/main_clg_photo.jpg"   
         alt="PVG COETM Campus"
         fill
         priority
