@@ -107,11 +107,11 @@ import Image from 'next/image'
 const publications = [
   { src: '/publications/C_Series.jpeg', alt: 'C Series' },
   { src: '/publications/Scientific-net.png', alt: 'Scientific Net Journal' },
-  { src: '/publications/IJECS.jpeg', alt: 'IJECS' },
+  
   { src: '/publications/Polymer.jpeg', alt: 'Polymer Journal' },
   { src: '/publications/Sigma.jpeg', alt: 'Sigma Journal' },
   { src: '/publications/Thermal.jpeg', alt: 'Thermal Engineering' },
-  { src: '/publications/Vehicles.jpeg', alt: 'Vehicles Journal' },
+  
 ]
 
 /* peer_reviewed JOURNAL IMAGES — 3 ROWS × 4 */
