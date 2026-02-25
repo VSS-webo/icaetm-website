@@ -311,7 +311,7 @@ export default function Publications() {
         </p>
 
         <p className="text-center text-slate-900 max-w-5xl mx-auto mb-10 text-lg leading-relaxed text-justify">
-          Selected papers may also be considered for publication in a book with an ISBN.
+          Selected papers will be considered for publication in a book with an ISBN.
         </p>
 
         <p className="text-center text-slate-900 max-w-5xl mx-auto mb-16 text-lg leading-relaxed text-justify">
