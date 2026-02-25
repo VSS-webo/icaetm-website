@@ -78,13 +78,9 @@ export default function Hero() {
           </h1>
 
           {/* Subtitle */}
-          <p className="
-            text-slate-200
-            text-lg md:text-2xl
-            leading-relaxed
-            mb-4
-            text-6xl
-          ">
+          
+
+          <p className="text-slate-200 text-lg md:text-3xl leading-relaxed mb-4">
             International Conference on Advances in
             Engineering, Technology & Management
           </p>

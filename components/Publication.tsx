@@ -153,13 +153,20 @@ export default function Publications() {
         </h3>
 
         {/* Description */}
-        <p className="text-center text-slate-600 max-w-5xl mx-auto mb-16 text-lg leading-relaxed text-justify">
+        <p className="text-center text-slate-600 max-w-5xl mx-auto mb-10 text-lg leading-relaxed text-justify">
           All accepted abstracts will be published in the Conference Abstract Proceedings. Selected full-length
           papers will be forwarded for possible publication in reputed journals indexed such as Scopus, Web
-          of Science (WoS), and Google Scholar, subject to editorial review and publisher approval. Selected
-          papers may also be considered for publication in a book with an ISBN. Any additional publication
-          charges, if applicable, will be borne by the authors as per publisher policy.
+          of Science (WoS), and Google Scholar, subject to editorial review and publisher approval.
         </p>
+
+        <p className="text-center text-slate-900 max-w-5xl mx-auto mb-10 text-lg leading-relaxed text-justify">
+            Selected papers may also be considered for publication in a book with an ISBN. 
+        </p>
+
+        <p className="text-center text-slate-900 max-w-5xl mx-auto mb-16 text-lg leading-relaxed text-justify">
+             Any additional publication charges, if applicable, will be borne by the authors as per publisher policy.
+        </p>
+
 
 
         {/* EXISTING JOURNAL CARDS */}
