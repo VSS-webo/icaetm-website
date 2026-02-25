@@ -40,7 +40,7 @@ export default function AboutPune() {
             About Pune
           </h2>
 
-          <p className="text-center text-slate-600 max-w-4xl mx-auto mb-16 text-lg leading-relaxed">
+          <p className="text-center text-slate-600 max-w-4xl mx-auto mb-16 text-lg leading-relaxed text-justify">
             Pune, often referred to as the “Oxford of the East,” is a vibrant
             city known for its rich cultural heritage, academic excellence, and
             dynamic industrial growth. Home to prestigious universities and

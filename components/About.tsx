@@ -444,11 +444,11 @@ export default function About() {
           transition={{ duration: 0.7 }}
           className="max-w-4xl mx-auto text-center"
         >
-          <h2 className="text-4xl md:text-5xl font-semibold text-slate-800 mb-6">
+          <h2 className="text-4xl md:text-5xl font-semibold text-slate-800 mb-6 ">
             About ICAETM-2026
           </h2>
 
-          <p className="text-slate-600 text-lg leading-relaxed">
+          <p className="text-slate-600 text-lg leading-relaxed text-justify">
             The International Conference on Advances in Engineering, Technology, and Management
             (ICAETM-2026), organized by PVG’s COETM, Pune, aims to bring together academicians, researchers,
             industry experts, and students on a common global platform. The conference focuses on recent
@@ -488,7 +488,7 @@ export default function About() {
               Pune Vidyarthi Griha (PVG)
             </h3>
 
-            <p className="text-slate-600 leading-relaxed text-lg">
+            <p className="text-slate-600 leading-relaxed text-lg text-justify">
               Pune Vidyarthi Griha (
               <a
                 href="https://www.punevidyarthigriha.org/"
@@ -514,14 +514,14 @@ export default function About() {
             >
 
               
-              <p className="mt-4 text-slate-600 leading-relaxed text-lg">
+              <p className="mt-4 text-slate-600 leading-relaxed text-lg text-justify">
                 Over the past century, PVG has evolved into a comprehensive
                 educational organization with institutions located in Pune, Mumbai, and Nashik, offering academic
                 programs from pre-primary to higher education across engineering, technology, management,
                 science, and allied disciplines.
               </p>
 
-              <p className="mt-4 text-slate-600 leading-relaxed text-lg">
+              <p className="mt-4 text-slate-600 leading-relaxed text-lg text-justify">
                 PVG has played a pioneering role in technical and professional education, notably being
                 the first institution in India to introduce formal education in Printing Engineering and
                 Communication Technology since 1926, with AICTE-approved diploma and degree programs. In

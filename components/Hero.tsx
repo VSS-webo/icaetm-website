@@ -83,6 +83,7 @@ export default function Hero() {
             text-lg md:text-2xl
             leading-relaxed
             mb-4
+            text-6xl
           ">
             International Conference on Advances in
             Engineering, Technology & Management

@@ -153,7 +153,7 @@ export default function Publications() {
         </h3>
 
         {/* Description */}
-        <p className="text-center text-slate-600 max-w-5xl mx-auto mb-16 text-lg leading-relaxed">
+        <p className="text-center text-slate-600 max-w-5xl mx-auto mb-16 text-lg leading-relaxed text-justify">
           All accepted abstracts will be published in the Conference Abstract Proceedings. Selected full-length
           papers will be forwarded for possible publication in reputed journals indexed such as Scopus, Web
           of Science (WoS), and Google Scholar, subject to editorial review and publisher approval. Selected
