@@ -89,7 +89,7 @@ export default function Hero() {
           </p>
 
           {/* Date & Location */}
-          <p className="text-slate-300 mb-10 tracking-wide">
+          <p className="text-slate-300 mb-10 tracking-wide text-3xl">
             June 26–27, 2026 · Pune, India
           </p>
 
