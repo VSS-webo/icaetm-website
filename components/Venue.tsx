@@ -166,8 +166,7 @@ export default function VenueContact() {
 
               <p>
                 <span className="font-bold text-black-900">Venue:</span><br />
-                PVG's College of Engineering, Technology & Management,<br />
-                Pune, Maharashtra, India
+                Pune Vidhyarthi Grihas College Of Engineering And Technology, 44, Shiv Darshan Rd, Parvati, Nirmal Baug Colony, Vidya Nagari, Parvati Paytha, Pune, Maharashtra 411009
               </p>
 
               <p>
@@ -197,7 +196,7 @@ export default function VenueContact() {
                   target="_blank"
                   className="text-indigo-600 hover:underline"
                 >
-                  www.icaetm2026.com
+                  www.icaetm.org
                 </a>
               </p>
 

@@ -77,7 +77,7 @@ import { CalendarDays } from 'lucide-react'
 const dates = [
   {
     title: 'Last date for receiving the full paper',
-    date: '15 March 2026',
+    date: '25 September 2026',
   },
   {
     title: 'Intimation of Acceptance',
@@ -93,7 +93,7 @@ const dates = [
   },
   {
     title: 'Conference Dates',
-    date: '26-27 June 2026',
+    date: '28-30 October 2026',
   },
 ]
 

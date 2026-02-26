@@ -22,6 +22,7 @@ const punePlaces = [
   {src: '/pune/AgaKhan.png', name:'Aga Khan Palace'},
   {src: '/pune/DinkarKelkar.png', name:'Raja Dinkar Kelkar Museum'},
   {src: '/pune/LalMahal.png', name:'Laal Mahal'},
+  {src: '/pune/parvati.jpg', name:'Parvati '},
   {src: '/pune/iskcon.jpg', name:'ISKCON Temple'},
   {src: '/pune/zoo.jpg', name:'Katraj Zoo'},
 ]
@@ -294,3 +295,6 @@ from the conference side. <a href='https://indianvisaonline.gov.in/'>https://ind
     </section>
   )
 }
+
+// last date 25 sep
+// 
