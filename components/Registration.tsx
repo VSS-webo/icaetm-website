@@ -215,10 +215,10 @@ export default function Registration() {
                   Participant
                 </th>
                 <th className="py-4 px-5 font-medium border-r border-slate-500">
-                  Early Bird (Before 20 March 2026)
+                  Early Bird (Before 20 May 2026)
                 </th>
                 <th className="py-4 px-5 font-medium">
-                  Registration (After 20 March 2026)
+                  Registration (After 20 May 2026)
                 </th>
               </tr>
             </thead>

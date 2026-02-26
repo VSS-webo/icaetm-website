@@ -98,7 +98,7 @@ export default function AboutPune() {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
 
             {/* Airports */}
             <motion.div
@@ -167,9 +167,28 @@ export default function AboutPune() {
 
               <p className="text-sm">Station Code: PUNE</p>
 
-              <p className="text-sm text-slate-700 flex items-center gap-1">
+              <p className="text-sm text-slate-700 flex items-center gap-1 mb-6">
                 <MapPin size={14} /> 10 km from venue
               </p>
+
+              <div className="flex items-center gap-3 mb-4">
+                <Train className="text-indigo-600" size={24} />
+                <h3 className="text-xl font-semibold text-slate-800">
+                  Metro Connectivity
+                </h3>
+              </div>
+
+              <div className="space-y-3 text-slate-600">
+                <div>
+                  <p className="font-medium text-slate-800">
+                    Swargate 
+                  </p>
+                  <p className="text-sm flex items-center gap-1">
+                    <MapPin size={14} /> 2 km from venue
+                  </p>
+                </div>                
+                
+              </div>
                 
 
             </motion.div>
@@ -218,30 +237,7 @@ export default function AboutPune() {
             </motion.div>
 
 
-            <motion.div
-              whileHover={{ y: -6 }}
-              className="bg-white/80 backdrop-blur border border-slate-200 rounded-2xl p-7 shadow-lg hover:shadow-xl transition-all duration-300"
-            >
-              <div className="flex items-center gap-3 mb-4">
-                <Train className="text-indigo-600" size={24} />
-                <h3 className="text-xl font-semibold text-slate-800">
-                  Metro Connectivity
-                </h3>
-              </div>
-
-              <div className="space-y-3 text-slate-600">
-                <div>
-                  <p className="font-medium text-slate-800">
-                    Swargate 
-                  </p>
-                  <p className="text-sm flex items-center gap-1">
-                    <MapPin size={14} /> 2 km from venue
-                  </p>
-                </div>                
-                
-              </div>
-            </motion.div>
-
+            
             <motion.div
               whileHover={{ y: -6 }}
               className="bg-white/80 backdrop-blur border border-slate-200 rounded-2xl p-7 shadow-lg hover:shadow-xl transition-all duration-300"
@@ -324,6 +320,8 @@ www.orchidhotel.com</a>
                 </div> 
                 </li>
 
+                
+
                 <li>
                 <div>
                   <p className="font-medium text-slate-800">
@@ -334,6 +332,7 @@ www.orchidhotel.com</a>
                   </p>
                 </div> 
                 </li>
+
 
                
                 
