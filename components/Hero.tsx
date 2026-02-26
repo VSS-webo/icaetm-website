@@ -85,7 +85,7 @@ export default function Hero() {
           </p>
 
           <p className="text-slate-300 mb-10 tracking-wide text-3xl">
-            June 26–27, 2026 · Pune, India
+            October 28–30, 2026 · Pune, India
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">

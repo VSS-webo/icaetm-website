@@ -721,7 +721,12 @@ export default function Committee() {
                 role:'Head, Computer Engineering',
               },
               {name:'Dr. Mrs. Minakshi P. Atre',
-                role:'Head, Artificial Intelligence & Data Science',
+                role: (
+                    <>
+                      Head, Artificial Intelligence & Data Science <br />
+                      Dean Research & Development
+                    </>
+                  ),
               },
               {name:'Prof. Mrs. Anjali S. Waghmare',
                 role:'Head, Applied Science & Humanities',
