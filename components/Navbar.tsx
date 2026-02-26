@@ -305,7 +305,7 @@ export default function Navbar() {
 
             {/* ================= Advisory Dropdown ================= */}
 
-            <div className="relative ml-2" ref={dropdownRef}>
+            {/* <div className="relative ml-2" ref={dropdownRef}>
               <button
                 onClick={() => setDropdownOpen(!dropdownOpen)}
                 aria-label="More"
@@ -351,7 +351,7 @@ export default function Navbar() {
                   </motion.div>
                 )}
               </AnimatePresence>
-            </div>
+            </div> */}
 
           </div>
 
