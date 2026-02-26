@@ -237,7 +237,7 @@
 //             },
 //             {
 //                 name: 'Dr. Prasanna G. Shete',
-//                 role: 'Head, E&TC Engg.',
+//                 role: 'Head, E&TC Engineering.',
 //             },
 //             {
 //                 name: 'Prof. Mrs. Madhura P. Mahajan',
@@ -245,7 +245,7 @@
 //             },
 //             {
 //                 name: 'Dr. Mangesh S. Thakare',
-//                 role: 'Head of Electrical Engg.',
+//                 role: 'Head of Electrical Engineering.',
 //             },
 //             {
 //                 name: 'Dr. Surendra A. Mahajan',
@@ -253,7 +253,7 @@
 //             },
 //             {
 //                 name: 'Prof. Mrs. Urmila M. Kalshetti',
-//                 role: 'Head, Comp. Engg.',
+//                 role: 'Head, Comp. Engineering.',
 //             },
 //             {
 //                 name: 'Dr. Mrs. Minakshi P. Atre',
@@ -329,13 +329,13 @@
 //             {[
 //             {
 //                 name: 'Dr. Shubhangi M. Gondane',
-//                 role: 'Dept. of Mechanical Engg.',
+//                 role: 'Department of Mechanical Engineering.',
 //                 email: 'smg_mech@pvgcoet.ac.in',
 //                 mobile: '+91 9326062418'
 //             },
 //             {
 //                 name: 'Dr. Ganesh Vijay More',
-//                 role: 'Dept. of Mechanical Engg.',
+//                 role: 'Department of Mechanical Engineering.',
 //                 email: 'gvm_mech@pvgcoet.ac.in',
 //                 mobile: '+91 7387031919',
 //             }
@@ -392,43 +392,43 @@
 //             {[
 //             {
 //                 name: 'Prof. Radha A. Ranjekar',
-//                 role: 'Dept. of Elect. Engg',
+//                 role: 'Department of Elect. Engineering',
 //             },
 //             {
 //                 name: 'Prof. Satish G. Kamble',
-//                 role: 'Dept. of IT',
+//                 role: 'Department of IT',
 //             },
 //             {
 //                 name: 'Prof. Anand S. Najan',
-//                 role: 'Dept. of E&TC Engg.',
+//                 role: 'Department of E&TC Engineering.',
 //             },
 //             {
 //                 name: 'Prof. Aditya G. Dongare',
-//                 role: 'Dept. of Comp. Engg.',
+//                 role: 'Department of Comp. Engineering.',
 //             },
 //             {
 //                 name: 'Prof. Ravindra H. Mule',
-//                 role: 'Dept. of AIDS',
+//                 role: 'Department of AIDS',
 //             },
 //             {
 //                 name: 'Dr. Kalpana S. Lodha',
-//                 role: 'Dept. of MBA',
+//                 role: 'Department of MBA',
 //             },
 //             {
 //                 name: 'Prof. Chittaranjan R. More',
-//                 role: 'Dept. of Mech. Engg.',
+//                 role: 'Department of Mech. Engineering.',
 //             },
 //             {
 //                 name: 'Dr. Sachin R. Suryawanshi',
-//                 role: 'Dept. of Applied Science',
+//                 role: 'Department of Applied Science',
 //             },
 //             {
 //                 name: 'Prof. Amit K. Redhu',
-//                 role: 'Dept. of Print. Packg. Tech',
+//                 role: 'Department of Print. Packg. Tech',
 //             },
 //             {
 //                 name: 'Dr. Mahesh B. Naikwade',
-//                 role: 'Dept. of Applied Science',
+//                 role: 'Department of Applied Science',
 //             }
 
 
@@ -645,13 +645,13 @@ export default function Committee() {
             {[
             {
                 name: 'Dr. Shubhangi M. Gondane',
-                role: 'Dept. of Mechanical Engg.',
+                role: 'Department of Mechanical Engineering',
                 email: 'smg_mech@pvgcoet.ac.in',
                 mobile: '+91 9326062418'
             },
             {
                 name: 'Dr. Ganesh Vijay More',
-                role: 'Dept. of Mechanical Engg.',
+                role: 'Department of Mechanical Engineering',
                 email: 'gvm_mech@pvgcoet.ac.in',
                 mobile: '+91 7387031919',
             }
@@ -670,10 +670,10 @@ export default function Committee() {
                   p-6
                 "
                 >
-                <p className="text-black font-medium">
+                <p className="text-lg font-semibold text-slate-800">
                 {member.name}
                 </p>
-                <p className="text-slate-700 text-sm mt-1">
+                <p className="text-slate-800 text-sm mt-1">
                 {member.role}
                 </p>
                 <p className="text-slate-700 text-sm mt-1">
@@ -703,30 +703,28 @@ export default function Committee() {
 
           <div className="max-w-4xl mx-auto grid grid-cols-1 sm:grid-cols-2 gap-x-10 gap-y-4">
             {[
-              {name:'Dr. Dipak S. Patil',
-                role:'Registrar, PVG’s COETM, Pune ',
-              },
+              
 
               {name:'Dr. Prasanna G. Shete',
-                role:'Head, E&TC Engg.',
+                role:'Department of Electronics & Telecommunication Engineering',
               },
               {name:'Prof. Mrs. Madhura P. Mahajan',
-                role:'Head of Print. Packg. Tech ',
+                role:'Head of Printing & Packaging Technology ',
               },
               {name:'Dr. Mangesh S. Thakare',
-                role:'Head of Electrical Engg.',
+                role:'Head of Electrical Engineering',
               },
               {name:'Dr. Surendra A. Mahajan',
-                role:'Head, IT',
+                role:'Head, Information Technology',
               },
               {name:'Prof. Mrs. Urmila M. Kalshetti',
-                role:'Head, Comp. Engg.',
+                role:'Head, Computer Engineering',
               },
               {name:'Dr. Mrs. Minakshi P. Atre',
-                role:'Head, AIDS',
+                role:'Head, Artificial Intelligence & Data Science',
               },
               {name:'Prof. Mrs. Anjali S. Waghmare',
-                role:'Head, Applied Science',
+                role:'Head, Applied Science & Humanities',
               },
               {name:'Dr. Mrs. Smita R. Temgire',
                 role:'Head MBA',
@@ -746,6 +744,12 @@ export default function Committee() {
               {name:'Dr. Pravin G. Kulkarni',
                 role:'Dean Quality Assurance ',
               },
+              {name:'Dr. Dipak S. Patil',
+                role:'Registrar, PVG’s COETM, Pune ',
+              },
+              {name : 'Dr. Sunil Gaikwad', 
+                role: 'Dean Industry Institute Interaction'
+              }
             ].map((member, idx) => (
               <div
                 key={idx}
@@ -760,7 +764,7 @@ export default function Committee() {
                   p-6
                 "
               >
-                <p className="text-black-800 font-medium">{member.name}</p>
+                <p className="text-lg font-semibold text-slate-800">{member.name}</p>
                 <p className='text-slate-600 text-sm mt-1'>{member.role}</p>
               </div>
             ))}
@@ -793,62 +797,62 @@ export default function Committee() {
             {[
             {
                 name: 'Prof. Radha A. Ranjekar',
-                role: 'Dept. of Elect. Engg',
+                role: 'Department of Electrical Engineering',
                 email: 'rar_elect@pvgcoet.ac.in',
                 mobile: '+91 9881901790'
             },
             {
                 name: 'Prof. Satish G. Kamble',
-                role: 'Dept. of IT',
+                role: 'Department of Information Technology',
                 email: 'sgk_it@pvgcoet.ac.in',
                 mobile: '+91 9822853296'
                 
             },
             {
                 name: 'Prof. Anand S. Najan',
-                role: 'Dept. of E&TC Engg.',
+                role: 'Department of Electronics & Telecommunication Engineering',
                 email: 'asn_entc@pvgcoet.ac.in',
                 mobile: '+91 9028645023'
             },
             {
                 name: 'Prof. Aditya G. Dongare',
-                role: 'Dept. of Comp. Engg.',
+                role: 'Department of Computer Engineering',
                 email: 'agd_comp@pvgcoet.ac.in',
                 mobile: '+91 9372912735'
             },
             {
                 name: 'Prof. Ravindra H. Mule',
-                role: 'Dept. of AIDS',
+                role: 'Department of Artificial Intellignece & Data Science',
                 email: 'rhm_comp@pvgcoet.ac.in',
                 mobile: '+91 9822497779'
             },
             {
                 name: 'Dr. Kalpana S. Lodha',
-                role: 'Dept. of MBA',
+                role: 'Department of MBA',
                 email: 'ksl_mba@pvgcoet.ac.in',
                 mobile: '+91 9922137285'
             },
             {
                 name: 'Prof. Chittaranjan R. More',
-                role: 'Dept. of Mech. Engg.',
+                role: 'Department of Mechanical Engineering',
                 email: 'crm_mech@pvgcoet.ac.in',
                 mobile: '+91 9422384226'
             },
             {
                 name: 'Dr. Sachin R. Suryawanshi',
-                role: 'Dept. of Applied Science',
+                role: 'Department of Applied Science & Humanities',
                 email: 'srs_fe@pvgcoet.ac.in',
                 mobile: '+91 9763363966'
             },
             {
                 name: 'Prof. Amit K. Redhu',
-                role: 'Dept. of Print. Packg. Tech',
+                role: 'Department of Printing & Packaging Technology',
                 email: 'akr_print@pvgcoet.ac.in',
                 mobile: '+91 9467024324'
             },
             {
                 name: 'Dr. Mahesh B. Naikwade',
-                role: 'Dept. of Applied Science',
+                role: 'Department of Applied Science & Humanities',
                 email: 'mbn_fe@pvgcoet.ac.in',
                 mobile: '+91 7775831259'
             }
@@ -869,10 +873,10 @@ export default function Committee() {
                   p-6
                 "
                 >
-                <p className="text-black font-medium">
+                <p className="text-lg font-semibold text-slate-800">
                 {member.name}
                 </p>
-                <p className="text-slate-600 text-sm mt-1">
+                <p className="text-slate-800 text-sm mt-1">
                 {member.role}
                 </p>
                 <p className="text-slate-600 text-sm mt-1">

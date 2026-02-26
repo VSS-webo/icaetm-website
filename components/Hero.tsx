@@ -80,17 +80,14 @@ export default function Hero() {
           {/* Subtitle */}
           
 
-          <p className="text-slate-200 text-lg md:text-3xl leading-relaxed mb-4">
-            International Conference on Advances in
-            Engineering, Technology & Management
+          <p className="text-slate-200 text-lg md:text-3xl leading-relaxed mb-4 whitespace-nowrap">
+            International Conference on Advances in Engineering, Technology & Management
           </p>
 
-          {/* Date & Location */}
           <p className="text-slate-300 mb-10 tracking-wide text-3xl">
             June 26–27, 2026 · Pune, India
           </p>
 
-          {/* Action Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
 
             <a
@@ -107,7 +104,7 @@ export default function Hero() {
             >
               Register Now
             </a>
-
+{/* 
             <a
               href="#speakers"
               className="
@@ -120,7 +117,7 @@ export default function Hero() {
               "
             >
               View Speakers
-            </a>
+            </a> */}
 
           </div>
 

@@ -225,11 +225,11 @@ export default function Registration() {
 
             <tbody className="divide-y divide-slate-200">
               {[
-                ['International Delegates', '$ 130 USD', '$ 150 USD'],
+                ['International Delegates', '$ 150 USD', '$ 200 USD'],
                 ['Industry Professionals', 'Rs. 9,000/-', 'Rs. 10,000/-'],
                 ['Academician', 'Rs. 7,000/-', 'Rs. 8,000/-'],
-                ['Research Scholar', 'Rs. 5,000/-','Rs. 6,000/-'],
-                ['PG & UG Students', 'Rs. 4,000/-', 'Rs. 5,000/-'],
+                ['Research Scholar', 'Rs. 6,000/-','Rs. 7,000/-'],
+                ['PG & UG Students', 'Rs. 5,000/-', 'Rs. 6,000/-'],
               ].map(([role, early, late], i) => (
                 <tr
                   key={i}

@@ -22,6 +22,8 @@ const punePlaces = [
   {src: '/pune/AgaKhan.png', name:'Aga Khan Palace'},
   {src: '/pune/DinkarKelkar.png', name:'Raja Dinkar Kelkar Museum'},
   {src: '/pune/LalMahal.png', name:'Laal Mahal'},
+  {src: '/pune/iskcon.jpg', name:'ISKCON Temple'},
+  {src: '/pune/zoo.jpg', name:'Katraj Zoo'},
 ]
 
 export default function AboutPune() {

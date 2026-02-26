@@ -191,6 +191,9 @@ import { useEffect, useState, useRef } from 'react'
 import Link from 'next/link'
 import { motion, AnimatePresence } from 'framer-motion'
 import Publications from './Publication'
+import { register } from 'module'
+import { trackDynamicHoleInStaticShell } from 'next/dist/server/app-render/dynamic-rendering'
+import Committee from './Committee'
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false)
@@ -248,7 +251,7 @@ export default function Navbar() {
 
           {/* ================= Logo ================= */}
           <a
-            href="https://icaetm-website-ebon.vercel.app/"
+            href="https://icaetm.org"
             className="text-white font-semibold tracking-wide text-lg hover:text-indigo-300 transition"
           >
             ICAETM<span className="text-indigo-400 ml-1">2026</span>
@@ -284,7 +287,7 @@ export default function Navbar() {
               </a>
             ))}
 
-            {/* Register CTA */}
+            
             <a
               href="https://cmt3.research.microsoft.com/" 
               target="_blank"
@@ -301,6 +304,7 @@ export default function Navbar() {
             </a>
 
             {/* ================= Advisory Dropdown ================= */}
+
             <div className="relative ml-2" ref={dropdownRef}>
               <button
                 onClick={() => setDropdownOpen(!dropdownOpen)}
@@ -361,3 +365,32 @@ export default function Navbar() {
     </nav>
   )
 }
+
+
+// remove register from navbar
+
+
+// bold coordinators
+// dept name full
+
+// committee reverse 
+// dept name 
+
+// Appl scinece & humanities
+// Intl relations 
+
+// ordering of intl Committee
+// new dates
+// remove dollar sign
+
+
+// research scjolar plus 1000 (for bottom row)
+// sCOPus, web os in Notebook
+// note below the table 
+// add iskcon, katraj zoo 
+// abis Hotel, hyatt, jw mariott hotels, orbit 
+// about:new tab in visa 
+
+// contact details 
+// address at  the end
+
