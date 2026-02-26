@@ -314,57 +314,52 @@ export default function Registration() {
 
           <div className="mt-14 grid grid-cols-1 md:grid-cols-2 gap-8">
 
-  {['National Participants', 'International Participants'].map((title, index) => (
-    <div
-      key={index}
-      className="
-        bg-white/70 backdrop-blur
-        border border-slate-200
-        rounded-2xl
-        p-8 md:p-10
-        shadow-lg
-      "
-    >
-      <h3
-        className="
-          text-2xl font-semibold
-          text-slate-800
-          mb-8 text-center
-        "
-      >
-        {title}
-      </h3>
+  {/* National Participants Card */}
+  <div
+    className="
+      bg-white/70 backdrop-blur
+      border border-slate-200
+      rounded-2xl
+      p-8 md:p-10
+      shadow-lg
+    "
+  >
+    <h3 className="text-2xl font-semibold text-slate-800 mb-8 text-center">
+      National Participants
+    </h3>
 
-      <div
-        className="
-          space-y-6
-          text-sm md:text-base
-        "
-      >
-        {[
-          ['Bank Name', 'Bank of India'],
-          ['Account Name', 'PVGCOET ALLIED ACTIVITES CENTER'],
-          ['Branch', 'Swargate, Pune'],
-          ['Account Number', '050810110003595'],
-          ['IFSC Code', 'BKID0000508'],
-        ].map(([label, value], i) => (
-          <div
-            key={i}
-            className="
-              flex justify-between
-              border-b border-slate-200
-              pb-2
-            "
-          >
-            <span className="text-slate-600">{label}</span>
-            <span className="text-slate-800 font-medium text-right">
-              {value}
-            </span>
-          </div>
-        ))}
+    <div className="space-y-6 text-sm md:text-base">
+
+      <div className="flex justify-between border-b border-slate-200 pb-2">
+        <span className="text-slate-600">Bank Name</span>
+        <span className="text-slate-800 font-medium">Bank of India</span>
       </div>
 
-      <p
+      <div className="flex justify-between border-b border-slate-200 pb-2">
+        <span className="text-slate-600">A/C Name</span>
+        <span className="text-slate-800 font-medium">
+          PVGCOET ALLIED ACTIVITES CENTER
+        </span>
+      </div>
+
+      <div className="flex justify-between border-b border-slate-200 pb-2">
+        <span className="text-slate-600">Branch</span>
+        <span className="text-slate-800 font-medium">Swargate, Pune</span>
+      </div>
+
+      <div className="flex justify-between border-b border-slate-200 pb-2">
+        <span className="text-slate-600">Account Number</span>
+        <span className="text-slate-800 font-medium">050810110003595</span>
+      </div>
+
+      <div className="flex justify-between border-b border-slate-200 pb-2">
+        <span className="text-slate-600">IFSC Code</span>
+        <span className="text-slate-800 font-medium">BKID0000508</span>
+      </div>
+
+    </div>
+
+    <p
         className="
           text-slate-500
           text-xs md:text-sm
@@ -374,13 +369,74 @@ export default function Registration() {
         * Transaction charges, if any, shall be borne by the participant.
         Please retain the payment receipt for verification during registration.
       </p>
+  </div>
+  
+  
+
+  {/* International Participants Card */}
+  <div
+    className="
+      bg-white/70 backdrop-blur
+      border border-slate-200
+      rounded-2xl
+      p-8 md:p-10
+      shadow-lg
+    "
+  >
+    <h3 className="text-2xl font-semibold text-slate-800 mb-8 text-center">
+      International Participants
+    </h3>
+
+    <div className="space-y-6 text-sm md:text-base">
+
+      <div className="flex justify-between border-b border-slate-200 pb-2">
+        <span className="text-slate-600">Bank Name</span>
+        <span className="text-slate-800 font-medium">Updating...</span>
+      </div>
+
+      <div className="flex justify-between border-b border-slate-200 pb-2">
+        <span className="text-slate-600">Account Name</span>
+        <span className="text-slate-800 font-medium">
+          Updating...
+        </span>
+      </div>
+
+      <div className="flex justify-between border-b border-slate-200 pb-2">
+        <span className="text-slate-600">Branch</span>
+        <span className="text-slate-800 font-medium">Updating...</span>
+      </div>
+
+      <div className="flex justify-between border-b border-slate-200 pb-2">
+        <span className="text-slate-600">Account Number</span>
+        <span className="text-slate-800 font-medium">Updating...</span>
+      </div>
+
+      <div className="flex justify-between border-b border-slate-200 pb-2">
+        <span className="text-slate-600">IFSC Code</span>
+        <span className="text-slate-800 font-medium">Updating...</span>
+      </div>
+
     </div>
-  ))}
+
+        
+  <p
+        className="
+          text-slate-500
+          text-xs md:text-sm
+          mt-8 text-center
+        "
+      >
+        * Transaction charges, if any, shall be borne by the participant.
+        Please retain the payment receipt for verification during registration.
+      </p>
+
+
+  </div>
+
 
 </div>
 
-
-        {/* ===== Notes (TOP BORDER KEPT AS IS) ===== */}
+       
         <div
           className="
             mt-12 max-w-5xl mx-auto

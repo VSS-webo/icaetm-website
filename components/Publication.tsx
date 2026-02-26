@@ -319,14 +319,14 @@ export default function Publications() {
           
           The registration fee at the conference applies to one participant only (physical attendance). 
           For additional participants, extra charges will be applicable as follows:
-
+          </p>
           <ul className="list-disc ml-6 mt-2">
             <li>₹2000 for Academicians and 100 USD for International Participants</li>
             <li>₹1000 for Research Scholars, UG/PG Students</li>
             
           </ul>
             
-        </p>
+        
 
 
         {/* EXISTING JOURNAL CARDS */}

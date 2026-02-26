@@ -99,6 +99,7 @@ export default function AboutPune() {
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+          
 
             {/* Airports */}
             <motion.div
@@ -239,105 +240,119 @@ export default function AboutPune() {
 
             
             <motion.div
-              whileHover={{ y: -6 }}
-              className="bg-white/80 backdrop-blur border border-slate-200 rounded-2xl p-7 shadow-lg hover:shadow-xl transition-all duration-300"
-            >
-              <div className="flex items-center gap-3 mb-4">
-                <Hotel className="text-indigo-600" size={24} />
-                <h3 className="text-xl font-semibold text-slate-800">
-                  Nearest Hotel
-                </h3>
-              </div>
+  whileHover={{ y: -6 }}
+  className="bg-white/80 backdrop-blur border border-slate-200 rounded-2xl p-7 shadow-lg hover:shadow-xl transition-all duration-300"
+>
+  <div className="flex items-center gap-3 mb-4">
+    <Hotel className="text-indigo-600" size={24} />
+    <h3 className="text-xl font-semibold text-slate-800">
+      Nearest Hotel
+    </h3>
+  </div>
 
-              <div className="space-y-3 text-slate-600">
+ <ul className="space-y-4 text-slate-600 list-none">
 
-                 <li>
-                <div>
-                  <p className="font-medium text-slate-800">
-                    Ibis Hotel
-                  </p>
-                  <p className="text-sm flex items-center gap-1">
-                    <a href='all.accor.com'>all.accor.com</a>
-                  </p>
-                </div> 
-                </li>
+  <li>
+    <p className="font-medium text-slate-800">
+      Ibis Hotel <span className="text-slate-500 text-sm">(7 km)</span>
+    </p>
+    <a
+      href="https://all.accor.com"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-indigo-600 text-sm hover:underline"
+    >
+      Official Website
+    </a>
+  </li>
 
-                <li>
-                <div>
-                  <p className="font-medium text-slate-800">
-                    Hotel Utsav Deluxe 
-                  </p>
-                  <p className="text-sm flex items-center gap-1">
-                    <a href='https://hotelutsavdeluxe.com/'>https://hotelutsavdeluxe.com/</a>
-                  </p>
-                </div>
-                </li>  
-                <li>
-                <div>
-                  <p className="font-medium text-slate-800">
-                    Hyatt Hotel
-                  </p>
-                  <p className="text-sm flex items-center gap-1">
-                    <a href='
-www.hyatt.com'>
-www.hyatt.com</a>
-                  </p>
-                </div>     
-                </li>
+  <li>
+    <p className="font-medium text-slate-800">
+      Hotel Utsav Deluxe <span className="text-slate-500 text-sm">(4 km)</span>
+    </p>
+    <a
+      href="https://hotelutsavdeluxe.com"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-indigo-600 text-sm hover:underline"
+    >
+      Official Website
+    </a>
+  </li>
 
-                <li>
-                <div>
-                  <p className="font-medium text-slate-800">
-                    The Orchid Hotel
-                  </p>
-                  <p className="text-sm flex items-center gap-1">
-                    <a href='‧
-www.orchidhotel.com'>‧
-www.orchidhotel.com</a>
-                  </p>
-                </div> 
-                </li>
+  <li>
+    <p className="font-medium text-slate-800">
+      Hyatt Hotel <span className="text-slate-500 text-sm">(7 km)</span>
+    </p>
+    <a
+      href="https://www.hyatt.com"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-indigo-600 text-sm hover:underline"
+    >
+      Official Website
+    </a>
+  </li>
 
-                <li>
-                <div>
-                  <p className="font-medium text-slate-800">
-                    Hotel Sheraton Grand
-                  </p>
-                  <p className="text-sm flex items-center gap-1">
-                    <a href='www.marriott.com'>www.marriott.com</a>
-                  </p>
-                </div> 
-                </li>    
+  <li>
+    <p className="font-medium text-slate-800">
+      The Orchid Hotel <span className="text-slate-500 text-sm">(7 km)</span>
+    </p>
+    <a
+      href="https://www.orchidhotel.com"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-indigo-600 text-sm hover:underline"
+    >
+      Official Website
+    </a>
+  </li>
 
-                <li>
-                <div>
-                  <p className="font-medium text-slate-800">
-                    Marriott Suites Pune
-                  </p>
-                  <p className="text-sm flex items-center gap-1">
-                    <a href='www.marriott.com'>www.marriott.com</a>
-                  </p>
-                </div> 
-                </li>
+  <li>
+    <p className="font-medium text-slate-800">
+      Hotel Sheraton Grand <span className="text-slate-500 text-sm">(6 km)</span>
+    </p>
+    <a
+      href="https://www.marriott.com"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-indigo-600 text-sm hover:underline"
+    >
+      Official Website
+    </a>
+  </li>
 
-                
+  <li>
+    <p className="font-medium text-slate-800">
+      Marriott Suites Pune <span className="text-slate-500 text-sm">(6.5 km)</span>
+    </p>
+    <a
+      href="https://www.marriott.com"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-indigo-600 text-sm hover:underline"
+    >
+      Official Website
+    </a>
+  </li>
 
-                <li>
-                <div>
-                  <p className="font-medium text-slate-800">
-                    Orbett Hotels
-                  </p>
-                  <p className="text-sm flex items-center gap-1">
-                    <a href='www.orbetthotels.com/'>www.orbetthotels.com</a>
-                  </p>
-                </div> 
-                </li>
+  <li>
+    <p className="font-medium text-slate-800">
+      Orbett Hotels <span className="text-slate-500 text-sm">(4 km)</span>
+    </p>
+    <a
+      href="https://www.orbetthotels.com"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-indigo-600 text-sm hover:underline"
+    >
+      Official Website
+    </a>
+  </li>
 
+</ul>
+</motion.div>
 
-               
-                
-              </div>
-            </motion.div>
 
           </div>
         </motion.div>

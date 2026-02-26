@@ -265,7 +265,7 @@ export default function Navbar() {
               ['Tracks', '#conference-track'],
               ['Publications', '#publications'],
               ['Committee', '#committee'],
-              ['Imp Details', '#important-dates'],
+              ['Important Details', '#important-dates'],
               
               // ['Registration', '#Registration'],
               ['Acknowledgement', '#acknowledgement'],

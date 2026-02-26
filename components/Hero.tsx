@@ -74,7 +74,7 @@ export default function Hero() {
             tracking-wide
             mb-4
           ">
-            ICAETM <span className="text-indigo-400">2026</span>
+            ICAETM 2026
           </h1>
 
           {/* Subtitle */}

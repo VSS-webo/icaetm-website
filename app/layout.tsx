@@ -54,8 +54,8 @@
 import './globals.css'
 
 export const metadata={
-  title:'ICAI 2026 | International Conference',
-  description:'International Conference on Advanced Innovations 2026',
+  title:'ICAETM 2026',
+  description:'International Conference on Advances in Engineering, Technology & Management',
 }
 
 export default function RootLayout({children}:{children:React.ReactNode}){
@@ -76,6 +76,7 @@ export default function RootLayout({children}:{children:React.ReactNode}){
     </html>
   )
 }
+
 
 
 

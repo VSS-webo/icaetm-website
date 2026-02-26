@@ -678,8 +678,13 @@ export default function Committee() {
                 {member.role}
                 </p>
                 <p className="text-slate-700 text-sm mt-1">
-                {member.email}
-                </p>
+  <a
+    href={`mailto:${member.email}`}
+    className="text-indigo-600 underline hover:text-indigo-800 transition-colors"
+  >
+    {member.email}
+  </a>
+</p>
                 <p className="text-slate-700 text-sm mt-1">
                 {member.mobile}
                 </p>
@@ -825,9 +830,7 @@ export default function Committee() {
     { name: 'Dr. Kuldeep Saxena', affiliation: <>
     Director-Research Collaboration,<br/>
     Galgotias University, Uttar Pradesh</> },
-    {name: 'Dr. Sanjeev Kumar',affiliation:<>
-    <br/>
-Guru Jambheshwar University S&T, Hisar, Haryana</>},
+    {name: 'Dr. Sanjeev Kumar',affiliation:'Guru Jambheshwar University S&T, Hisar, Haryana'},
     { name: 'Dr. Y. V. Hanumantha Rao', affiliation: <>
     Principal, <br/>
     QIS College of Engineering, Andhra Pradesh</> },
@@ -1080,9 +1083,14 @@ Department of Computer Applications, Sikkim Manipal Institute of Technology, Sik
                 <p className="text-slate-800 text-sm mt-1">
                 {member.role}
                 </p>
-                <p className="text-slate-600 text-sm mt-1">
-                {member.email}
-                </p>
+                <p className="text-slate-700 text-sm mt-1">
+  <a
+    href={`mailto:${member.email}`}
+    className="text-indigo-600 underline hover:text-indigo-800 transition-colors"
+  >
+    {member.email}
+  </a>
+</p>
                 <p className="text-slate-600 text-sm mt-1">
                 {member.mobile}
                 
