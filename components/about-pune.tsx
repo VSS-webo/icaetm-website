@@ -282,7 +282,9 @@ export default function AboutPune() {
                     Hyatt Hotel
                   </p>
                   <p className="text-sm flex items-center gap-1">
-                    <a href='https://hotelutsavdeluxe.com/'>https://hotelutsavdeluxe.com/</a>
+                    <a href='
+www.hyatt.com'>
+www.hyatt.com</a>
                   </p>
                 </div>     
                 </li>
@@ -293,7 +295,9 @@ export default function AboutPune() {
                     The Orchid Hotel
                   </p>
                   <p className="text-sm flex items-center gap-1">
-                    <a href='https://hotelutsavdeluxe.com/'>https://hotelutsavdeluxe.com/</a>
+                    <a href='‧
+www.orchidhotel.com'>‧
+www.orchidhotel.com</a>
                   </p>
                 </div> 
                 </li>
@@ -304,7 +308,7 @@ export default function AboutPune() {
                     Hotel Sheraton Grand
                   </p>
                   <p className="text-sm flex items-center gap-1">
-                    <a href='https://hotelutsavdeluxe.com/'>https://hotelutsavdeluxe.com/</a>
+                    <a href='www.marriott.com'>www.marriott.com</a>
                   </p>
                 </div> 
                 </li>    
@@ -315,7 +319,7 @@ export default function AboutPune() {
                     Marriott Suites Pune
                   </p>
                   <p className="text-sm flex items-center gap-1">
-                    <a href='https://hotelutsavdeluxe.com/'>https://hotelutsavdeluxe.com/</a>
+                    <a href='www.marriott.com'>www.marriott.com</a>
                   </p>
                 </div> 
                 </li>
