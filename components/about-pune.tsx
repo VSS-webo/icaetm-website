@@ -254,6 +254,19 @@ export default function AboutPune() {
               </div>
 
               <div className="space-y-3 text-slate-600">
+
+                 <li>
+                <div>
+                  <p className="font-medium text-slate-800">
+                    Ibis Hotel
+                  </p>
+                  <p className="text-sm flex items-center gap-1">
+                    <a href='all.accor.com'>all.accor.com</a>
+                  </p>
+                </div> 
+                </li>
+
+                <li>
                 <div>
                   <p className="font-medium text-slate-800">
                     Hotel Utsav Deluxe 
@@ -261,7 +274,64 @@ export default function AboutPune() {
                   <p className="text-sm flex items-center gap-1">
                     <a href='https://hotelutsavdeluxe.com/'>https://hotelutsavdeluxe.com/</a>
                   </p>
-                </div>                
+                </div>
+                </li>  
+                <li>
+                <div>
+                  <p className="font-medium text-slate-800">
+                    Hyatt Hotel
+                  </p>
+                  <p className="text-sm flex items-center gap-1">
+                    <a href='https://hotelutsavdeluxe.com/'>https://hotelutsavdeluxe.com/</a>
+                  </p>
+                </div>     
+                </li>
+
+                <li>
+                <div>
+                  <p className="font-medium text-slate-800">
+                    The Orchid Hotel
+                  </p>
+                  <p className="text-sm flex items-center gap-1">
+                    <a href='https://hotelutsavdeluxe.com/'>https://hotelutsavdeluxe.com/</a>
+                  </p>
+                </div> 
+                </li>
+
+                <li>
+                <div>
+                  <p className="font-medium text-slate-800">
+                    Hotel Sheraton Grand
+                  </p>
+                  <p className="text-sm flex items-center gap-1">
+                    <a href='https://hotelutsavdeluxe.com/'>https://hotelutsavdeluxe.com/</a>
+                  </p>
+                </div> 
+                </li>    
+
+                <li>
+                <div>
+                  <p className="font-medium text-slate-800">
+                    Marriott Suites Pune
+                  </p>
+                  <p className="text-sm flex items-center gap-1">
+                    <a href='https://hotelutsavdeluxe.com/'>https://hotelutsavdeluxe.com/</a>
+                  </p>
+                </div> 
+                </li>
+
+                <li>
+                <div>
+                  <p className="font-medium text-slate-800">
+                    Orbett Hotels
+                  </p>
+                  <p className="text-sm flex items-center gap-1">
+                    <a href='www.orbetthotels.com/'>www.orbetthotels.com</a>
+                  </p>
+                </div> 
+                </li>
+
+               
                 
               </div>
             </motion.div>
