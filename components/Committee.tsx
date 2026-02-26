@@ -664,6 +664,7 @@ export default function Committee() {
                   rounded-2xl
                   border border-slate-200
                   shadow-sm
+                  mb-6
                   hover:border-violet-400
                   hover:ring-1 hover:ring-violet-300/40
                   transition-all duration-300
@@ -687,6 +688,137 @@ export default function Committee() {
 
         </div>
         </motion.div>
+
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.5, delay: 0.15 }}
+          className="mb-20"
+        >
+          <h3 className="text-3xl font-semibold text-violet-600 mb-10 text-center">
+            International Advisory Committee
+          </h3>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 max-w-4xl mx-auto">
+            {[
+              { name: 'Dr. Manoj Mugale', affiliation: 'Eastern Kentucky University, Richmond, Kentucky, USA' },
+    { name: 'Dr. Manoj A. Joshi', affiliation: 'Advanced CMOS Technology Developments, TSMC, California, USA' },
+    { name: 'Dr. Ajay P. Singh', affiliation: 'Ames National Laboratory, Iowa, USA' },
+    { name: 'Dr. Vinod Kumar Shukla', affiliation: 'Amity University Dubai, UAE' },
+    { name: 'Dr. Vijay Varade', affiliation: 'Amity University, Dubai, UAE' },
+    { name: 'Dr. Bhajan L. Rahanu', affiliation: 'Universiti Teknologi Petronas, Malaysia' },
+    { name: 'Dr. Norhashila Hashim', affiliation: 'Universiti Putra Malaysia' },
+    { name: 'Dr. Chan Mieow Kee', affiliation: 'SEGi University, Malaysia' },
+    { name: 'Dr. Apurav Koyande', affiliation: 'Universiti Teknologi Petronas, Malaysia' },
+    { name: 'Dr. Zuhaina Zakaria', affiliation: 'MARA University of Technology, Malaysia' },
+    { name: 'Dr. Arvind R. Singh', affiliation: 'Hanjiang Normal University, Hubei Shiyan, China' },
+    { name: 'Dr. Palanivel Rathinasabapathi Velmurugan', affiliation: 'Berlin School of Business and Innovation, Germany' },
+    { name: 'Dr. Juntakan Taweekun', affiliation: 'Prince of Songkla University (PSU), Thailand' },
+    { name: 'Dr. Parmal Singh Solanki', affiliation: 'University of Technology and Applied Sciences, Oman' },
+    { name: 'Dr. Nitin S. Goje', affiliation: 'Webster University, Tashkent, Uzbekistan' },
+    { name: 'Dr. Mebrahtom Gabresemati', affiliation: 'Gachon University, South Korea' },
+    { name: 'Dr. Nishith B. Desai', affiliation: 'Technical University of Denmark, Denmark' },
+    { name: 'Updating...', affiliation: '' },
+            ].map((member, idx) => (
+              <div
+                key={idx}
+                className="
+                  bg-white
+                  rounded-2xl
+                  border border-slate-200
+                  shadow-sm
+                  hover:border-violet-400
+                  hover:ring-1 hover:ring-violet-300/40
+                  transition-all duration-300
+                  p-6
+                "
+              >
+                <p className="text-lg font-semibold text-slate-800">
+                  {member.name}
+                </p>
+                <p className="text-slate-600 mt-1 text-sm">
+                  {member.affiliation}
+                </p>
+              </div>
+            ))}
+          </div>
+        </motion.div>
+
+        {/* == National Advisory*/}
+
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.5, delay: 0.15 }}
+          className="mb-20"
+        >
+          <h3 className="text-3xl font-semibold text-violet-600 mb-10 text-center">
+            National Advisory Committee
+          </h3>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 max-w-4xl mx-auto">
+            {[
+              { name: 'Dr. Dattatray Jadhav', affiliation: 'Directorate of Technical Education, Pune, Maharashtra' },
+    { name: 'Dr. Mukul Sutaone', affiliation: 'IIIT, Allahabad' },
+    { name: 'Dr. Aditya S. Abhyankar', affiliation: 'Department of Technology, SPPU, Pune, Maharashtra' },
+    { name: 'Dr. Vikram M. Gadre', affiliation: 'IIT Mumbai, Maharashtra' },
+    { name: 'Dr. Surbhi Jain', affiliation: 'Dept. of Management Science, SPPU, Pune, Maharashtra' },
+    { name: 'Dr. Anupa Kumbhar', affiliation: 'Dept. of Chemistry, SPPU, Pune, Maharashtra' },
+    { name: 'Dr. Yogesh Bhalerao', affiliation: 'MIT Academy of Engineering, Pune, Maharashtra' },
+    { name: 'Dr. Rakesh Mote', affiliation: 'IIT Bombay, Maharashtra' },
+    { name: 'Dr. D. S. Patil', affiliation: 'IIT Bombay, Maharashtra' },
+    { name: 'Dr. Yogesh Hote', affiliation: 'IIT Roorkee, Uttarakhand' },
+    { name: 'Dr. Amod Umarikar', affiliation: 'IIT Indore, Madhya Pradesh' },
+    { name: 'Dr. Ram B. Pachori', affiliation: 'IIT Indore, Madhya Pradesh' },
+    { name: 'Dr. Dharmendra Kumar Dheer', affiliation: 'NIT Patna, Bihar' },
+    { name: 'Dr. Jitendra V. Tembhurne', affiliation: 'IIIT, Nagpur, Maharashtra' },
+    { name: 'Dr. Baburao Guduri', affiliation:'IIP, Mumbai, Maharashtra'},
+    { name: 'Dr. Pramod M. Podoale', affiliation: 'VNIT, Nagpur, Maharashtra' },
+    {name: 'Dr. Datta Kute', affiliation:'Manager, SPPU Press, Pune, Maharashtra'},
+    {name: 'Dr. A. Arulmozhi',affiliation:'Avinashilingam University, Coimbatore, Tamil Nadu'},
+    {name : 'Dr. Rituparna Datta',affiliation:' Cognizant AI Lab, Cognizant, Bangalore, Karnataka'},
+    { name: 'Dr. N. V. Suresh', affiliation: 'ASET Institute, Chennai, Tamil Nadu' },
+    { name: 'Dr. Kuldeep Saxena', affiliation: 'Galgotias University, Uttar Pradesh' },
+    {name: 'Dr. Sanjeev Kumar',affiliation:'Guru Jambheshwar University S&T, Hisar, Haryana'},
+    { name: 'Dr. Y. V. Hanumantha Rao', affiliation: 'QIS College of Engineering, Andhra Pradesh' },
+    { name: 'Dr. B. Nageshwar Rao', affiliation: 'KL University, Andhra Pradesh' },
+    { name: 'Dr. P. Issac Prasad', affiliation: 'Mohan Babu University, Andhra Pradesh' },
+    { name: 'Dr. Samarjeet Borah', affiliation: 'Sikkim Manipal Institute of Technology, Sikkim' },
+    { name: 'Dr. Preetam Suman', affiliation: 'VIT Bhopal University, Madhya Pradesh' },
+    { name: 'Dr. Nilanjan Dey', affiliation: 'Techno International New Town, Kolkata, West Bengal' },
+    { name: 'Dr. Chandrahans Chavan', affiliation: 'Jamnalal Bajaj Institute of Management Studies, Mumbai, Maharashtra' },
+    { name: 'Dr. Satishchandra Ogale', affiliation: 'IISER, Pune, Maharashtra' },
+    { name: 'Dr. D. S. Watvisave', affiliation: 'Cummins College of Engineering, Pune, Maharashtra' },
+    { name: 'Dr. Anniruddha Gadhikar', affiliation: 'Govt. College, Karad, Maharashtra' },
+    { name: 'Updating…', affiliation: '' },
+            ].map((member, idx) => (
+              <div
+                key={idx}
+                className="
+                  bg-white
+                  rounded-2xl
+                  border border-slate-200
+                  shadow-sm
+                  hover:border-violet-400
+                  hover:ring-1 hover:ring-violet-300/40
+                  transition-all duration-300
+                  p-6
+                "
+              >
+                <p className="text-lg font-semibold text-slate-800">
+                  {member.name}
+                </p>
+                <p className="text-slate-600 mt-1 text-sm">
+                  {member.affiliation}
+                </p>
+              </div>
+            ))}
+          </div>
+        </motion.div>
+
+
 
         {/* ===== Programme Chair ===== */}
         <motion.div
@@ -749,12 +881,13 @@ export default function Committee() {
               {name:'Dr. Pravin G. Kulkarni',
                 role:'Dean Quality Assurance ',
               },
+              {name : 'Dr. Sunil Gaikwad', 
+                role: 'Dean Industry Institute Interaction'
+              },
               {name:'Dr. Dipak S. Patil',
                 role:'Registrar, PVG’s COETM, Pune ',
               },
-              {name : 'Dr. Sunil Gaikwad', 
-                role: 'Dean Industry Institute Interaction'
-              }
+              
             ].map((member, idx) => (
               <div
                 key={idx}
@@ -838,7 +971,7 @@ export default function Committee() {
                 mobile: '+91 9922137285'
             },
             {
-                name: 'Prof. Chittaranjan R. More',
+                name: 'Dr. Chittaranjan R. More',
                 role: 'Department of Mechanical Engineering',
                 email: 'crm_mech@pvgcoet.ac.in',
                 mobile: '+91 9422384226'
