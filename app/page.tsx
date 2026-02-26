@@ -90,7 +90,7 @@ export default function Home(){
       <Navbar />
       <Hero />      
       <About /> 
-      <AboutPune/>
+      <AboutPune/>  
       <ConferenceTracks/>
       <Publications/>
       <Committee/>

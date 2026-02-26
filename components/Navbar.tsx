@@ -265,9 +265,9 @@ export default function Navbar() {
               ['Tracks', '#conference-track'],
               ['Publications', '#publications'],
               ['Committee', '#committee'],
-              ['Imp Dates', '#important-dates'],
+              ['Imp Details', '#important-dates'],
               
-              ['Registration', '#Registration'],
+              // ['Registration', '#Registration'],
               ['Acknowledgement', '#acknowledgement'],
               ['Speakers', '#speakers'],
               
@@ -288,7 +288,7 @@ export default function Navbar() {
             ))}
 
             
-            <a
+            {/* <a
               href="https://cmt3.research.microsoft.com/" 
               target="_blank"
               rel="noopener noreferrer"
@@ -301,7 +301,7 @@ export default function Navbar() {
               "
             >
               Register
-            </a>
+            </a> */}
 
             {/* ================= Advisory Dropdown ================= */}
 
@@ -388,8 +388,11 @@ export default function Navbar() {
 // sCOPus, web os in Notebook
 // note below the table 
 // add iskcon, katraj zoo 
-// abis Hotel, hyatt, jw mariott hotels, orbit 
+// abis Hotel, hyatt, jw mariot t hotels, orbit 
 // about:new tab in visa 
+
+//[W*&QJ6;FU$#DD&b
+//dean reseacrh and dev
 
 // contact details 
 // address at  the end
