@@ -316,7 +316,18 @@ export default function Publications() {
 
         <p className="text-center text-slate-900 max-w-5xl mx-auto mb-16 text-lg leading-relaxed text-justify">
           Any additional publication charges, if applicable, will be borne by the authors as per publisher policy.
+          
+          The registration fee at the conference applies to one participant only (physical attendance). 
+          For additional participants, extra charges will be applicable as follows:
+
+          <ul className="list-disc ml-6 mt-2">
+            <li>₹2000 for Academicians and 100 USD for International Participants</li>
+            <li>₹1000 for Research Scholars, UG/PG Students</li>
+            
+          </ul>
+            
         </p>
+
 
         {/* EXISTING JOURNAL CARDS */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-14 gap-y-16 items-center mb-20">

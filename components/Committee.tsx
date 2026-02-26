@@ -838,13 +838,13 @@ export default function Committee() {
               
 
               {name:'Dr. Prasanna G. Shete',
-                role:'Department of Electronics & Telecommunication Engineering',
+                role:'Head, Department of Electronics & Telecommunication Engineering',
               },
               {name:'Prof. Mrs. Madhura P. Mahajan',
-                role:'Head of Printing & Packaging Technology ',
+                role:'Head, Department of Printing & Packaging Technology ',
               },
               {name:'Dr. Mangesh S. Thakare',
-                role:'Head of Electrical Engineering',
+                role:'Head, Electrical Engineering',
               },
               {name:'Dr. Surendra A. Mahajan',
                 role:'Head, Information Technology',
@@ -855,7 +855,7 @@ export default function Committee() {
               {name:'Dr. Mrs. Minakshi P. Atre',
                 role: (
                     <>
-                      Head, Artificial Intelligence & Data Science <br />
+                      Head, Artificial Intelligence & Data Science & <br />
                       Dean Research & Development
                     </>
                   ),
@@ -864,28 +864,28 @@ export default function Committee() {
                 role:'Head, Applied Science & Humanities',
               },
               {name:'Dr. Mrs. Smita R. Temgire',
-                role:'Head Master of Business Administration',
+                role:'Head, Master of Business Administration',
               },
               {name:'Dr. Mahesh P. Potdar',
-                role:'Dean Academics',
+                role:'Dean, Academics',
               },
               {name:'Prof. Omkar S. Pawaskar',
-                role:'College Exam Officer, PVG’s COETM, Pune ',
+                role:'College Exam Officer(CEO)',
               },
               {name:'Dr. Mrs. Ujjawala S. Thakar',
-                role:'Dean National Board of Accreditation ',
+                role:'Dean, National Board of Accreditation(NBA) ',
               },
               {name:'Dr. Naresh G. Jaiswal',
-                role:'Dean Faculty Development ',
+                role:'Dean, Faculty Development ',
               },
               {name:'Dr. Pravin G. Kulkarni',
-                role:'Dean Quality Assurance ',
+                role:'Dean, Quality Assurance(QA) ',
               },
               {name : 'Dr. Sunil Gaikwad', 
-                role: 'Dean Industry Institute Interaction'
+                role: 'Dean, Industry Relations (IIIC)'
               },
               {name:'Dr. Dipak S. Patil',
-                role:'Registrar, PVG’s COETM, Pune ',
+                role:'Registrar',
               },
               
             ].map((member, idx) => (

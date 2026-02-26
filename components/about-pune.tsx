@@ -21,7 +21,7 @@ const punePlaces = [
   { src: '/pune/shivneri.jpg', name: 'Shivneri Fort' },
   {src: '/pune/AgaKhan.png', name:'Aga Khan Palace'},
   {src: '/pune/DinkarKelkar.png', name:'Raja Dinkar Kelkar Museum'},
-  {src: '/pune/LalMahal.png', name:'Laal Mahal'},
+  {src: '/pune/alibag.jpg', name:'Alibaug Beach'},
   {src: '/pune/parvati.jpg', name:'Parvati '},
   {src: '/pune/iskcon.jpg', name:'ISKCON Temple'},
   {src: '/pune/zoo.jpg', name:'Katraj Zoo'},

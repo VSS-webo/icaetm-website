@@ -77,19 +77,19 @@ import { CalendarDays } from 'lucide-react'
 const dates = [
   {
     title: 'Last date for receiving the full paper',
-    date: '25 September 2026',
+    date: '15 May 2026',
   },
   {
     title: 'Intimation of Acceptance',
-    date: '20 March 2026',
+    date: '20 May 2026',
   },
   {
     title: 'Last date camera-ready copy',
-    date: '25 March 2026',
+    date: '25 May 2026',
   },
   {
     title: 'Last date for registration',
-    date: '01 April 2026',
+    date: '01 June 2026',
   },
   {
     title: 'Conference Dates',

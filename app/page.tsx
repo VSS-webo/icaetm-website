@@ -90,6 +90,7 @@ export default function Home(){
       <Navbar />
       <Hero />      
       <About /> 
+      <AboutPune/>
       <ConferenceTracks/>
       <Publications/>
       <Committee/>
@@ -102,7 +103,7 @@ export default function Home(){
       
       
       
-      <AboutPune/>
+      
       <Acknowledge/>
       <Venue />
       <Sponsors />

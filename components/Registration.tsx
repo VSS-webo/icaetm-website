@@ -225,7 +225,7 @@ export default function Registration() {
 
             <tbody className="divide-y divide-slate-200">
               {[
-                ['International Delegates', '$ 150 USD', '$ 200 USD'],
+                ['International Delegates', '150 USD', '200 USD'],
                 ['Industry Professionals', 'Rs. 9,000/-', 'Rs. 10,000/-'],
                 ['Academician', 'Rs. 7,000/-', 'Rs. 8,000/-'],
                 ['Research Scholar', 'Rs. 6,000/-','Rs. 7,000/-'],
@@ -337,14 +337,14 @@ export default function Registration() {
             <li>Uploading of articles will be done through Microsoft CMT.</li>
             <li>The paper should be submitted with a plagiarism report of up to 15%(Turnitin), 10%(Drillbit).</li>
             <li>The conference registration fees do not include the journal publication charges.</li>
-            <li>High-quality accepted and presented papers will be considered for recommendation to Scopus indexed journals after an additional peer-review process.</li>
+            <li>High-quality accepted and presented papers will be considered for recommendation to Scopus indexed journals, Web of Science (WoS), and Google Scholar after an additional peer-review process.</li>
 
             <li>
               The registration fee at the conference applies to one participant only (physical attendance). 
               For additional participants, extra charges will be applicable as follows:
 
               <ul className="list-disc ml-6 mt-2">
-                <li>₹2000 for Academicians and $50 USD for International Participants</li>
+                <li>₹2000 for Academicians and 100 USD for International Participants</li>
                 <li>₹1000 for Research Scholars, UG/PG Students</li>
                 
               </ul>
