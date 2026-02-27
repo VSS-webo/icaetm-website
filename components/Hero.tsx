@@ -67,16 +67,31 @@ export default function Hero() {
           </div> */}
 
           {/* Conference Title */}
-          <h1 className="
-            text-white
-            text-4xl md:text-6xl
-            font-semibold
-            tracking-wide
-            mb-4
-          ">
-            ICAETM 2026
-          </h1>
 
+          <h5
+  className="
+    text-white
+    text-lg md:text-2xl
+    font-medium
+    tracking-wide
+    mb-2
+  "
+>
+  Scopus / WoS / ISBN Indexed
+</h5>
+
+<h1
+  className="
+    text-white
+    text-4xl md:text-6xl
+    font-semibold
+    tracking-tight
+    leading-tight
+    mb-4
+  "
+>
+  ICAETM 2026
+</h1>
           {/* Subtitle */}
           
 
@@ -95,6 +110,7 @@ export default function Hero() {
             
             <a
               href="https://cmt3.research.microsoft.com/ICAETM2026/Submission/Index"
+              target='_blank'
               className="
                 px-8 py-3
                 rounded-full
@@ -128,6 +144,10 @@ export default function Hero() {
 
           <p className="text-slate-300 mb-10 tracking-wide text-3xl">
             Last date to register : 01 June 2026
+          </p>
+
+          <p className='text-slate-200 mb-10 tracking-full text-1xl'>
+            NOTE: After receiving the acceptance notification, authors are required to complete the registration process within 72 hours.
           </p>
 
         </motion.div>
