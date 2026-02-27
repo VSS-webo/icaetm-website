@@ -95,7 +95,7 @@ export default function Hero() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
 
             <a
-              href="https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2F"
+              
               target="_blank"
               className="
                 px-8 py-3
@@ -108,20 +108,20 @@ export default function Hero() {
             >
               Register Now
             </a>
-{/* 
+            
             <a
-              href="#speakers"
+              href="https://cmt3.research.microsoft.com/ICAETM2026/Submission/Index"
               className="
                 px-8 py-3
                 rounded-full
-                border border-white/40
-                text-white
-                hover:bg-white/10
+                bg-indigo-600 text-white
+                hover:bg-indigo-500
                 transition-all
+                shadow-lg hover:shadow-xl
               "
             >
-              View Speakers
-            </a> */}
+              Article Submission
+            </a> 
 
           </div>
 
