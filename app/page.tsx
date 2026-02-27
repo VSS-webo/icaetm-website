@@ -83,6 +83,7 @@ import NationalAdvisorySection from '@/components/national-advisory'
 import Publications from '@/components/Publication'
 import Acknowledge from '@/components/Acknowledgement'
 import AboutPune from '@/components/about-pune'
+import Templates from '@/components/templates'
 
 export default function Home(){
   return(
@@ -103,7 +104,7 @@ export default function Home(){
       
       
       
-      
+      <Templates/>
       <Acknowledge/>
       <Venue />
       <Sponsors />
