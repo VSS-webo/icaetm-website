@@ -70,11 +70,13 @@ export default function Hero() {
 
           <h5
   className="
-    text-white
     text-lg md:text-2xl
     font-medium
     tracking-wide
     mb-2
+    bg-gradient-to-r from-yellow-300 to-yellow-400
+    bg-clip-text
+    text-transparent
   "
 >
   Scopus / WoS / ISBN Indexed
@@ -146,7 +148,7 @@ export default function Hero() {
             Last date to register : 01 June 2026
           </p>
 
-          <p className='text-slate-200 mb-10 tracking-full text-1xl'>
+          <p className="text-slate-200 mb-10 tracking-wide text-[1.15rem]">
             NOTE: After receiving the acceptance notification, authors are required to complete the registration process within 72 hours.
           </p>
 
