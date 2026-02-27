@@ -167,7 +167,7 @@ export default function ImportantDates() {
                     bg-white/70 backdrop-blur
                     border border-slate-200
                     rounded-2xl
-                    p-6 md:p-7
+                    p-6 md:p-3.5
                     shadow-lg
                     hover:shadow-xl
                     transition
