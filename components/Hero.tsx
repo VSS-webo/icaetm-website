@@ -88,26 +88,10 @@ export default function Hero() {
             October 28–30, 2026 · Pune, India
           </p>
 
-          <p className="text-slate-300 mb-10 tracking-wide text-3xl">
-            Last date to register : 01 June 2026
-          </p>  
+            
 
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <div className="flex flex-col sm:flex-row gap-4 justify-center mb-13">
 
-            <a
-              
-              target="_blank"
-              className="
-                px-8 py-3
-                rounded-full
-                bg-indigo-600 text-white
-                hover:bg-indigo-500
-                transition-all
-                shadow-lg hover:shadow-xl
-              "
-            >
-              Register Now
-            </a>
             
             <a
               href="https://cmt3.research.microsoft.com/ICAETM2026/Submission/Index"
@@ -122,8 +106,29 @@ export default function Hero() {
             >
               Article Submission
             </a> 
+            
+            <a
+              href='https://forms.gle/6ZGUX2ZMv71CU1Q56'
+              target="_blank"
+              className="
+                px-8 py-3
+                rounded-full
+                bg-indigo-600 text-white
+                hover:bg-indigo-500
+                transition-all
+                shadow-lg hover:shadow-xl
+              "
+            >
+              Register Now
+            </a>
+            
+            
 
           </div>
+
+          <p className="text-slate-300 mb-10 tracking-wide text-3xl">
+            Last date to register : 01 June 2026
+          </p>
 
         </motion.div>
       </div>
