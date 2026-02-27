@@ -84,9 +84,13 @@ export default function Hero() {
             International Conference on Advances in Engineering, Technology & Management
           </p>
 
-          <p className="text-slate-300 mb-10 tracking-wide text-3xl">
+          <p className="text-slate-300 mb-7 tracking-wide text-3xl">
             October 28–30, 2026 · Pune, India
           </p>
+
+          <p className="text-slate-300 mb-10 tracking-wide text-3xl">
+            Last date to register : 01 June 2026
+          </p>  
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
 

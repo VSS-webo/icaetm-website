@@ -84,6 +84,7 @@ import Publications from '@/components/Publication'
 import Acknowledge from '@/components/Acknowledgement'
 import AboutPune from '@/components/about-pune'
 import Templates from '@/components/templates'
+import Reviewer from '@/components/review'
 
 export default function Home(){
   return(
@@ -94,6 +95,8 @@ export default function Home(){
       <AboutPune/>  
       <ConferenceTracks/>
       <Publications/>
+      <Templates/>
+      <Reviewer/>
       <Committee/>
       {/* <AdvisorySection/>   */}
       {/* <NationalAdvisorySection/> */}
@@ -104,7 +107,6 @@ export default function Home(){
       
       
       
-      <Templates/>
       <Acknowledge/>
       <Venue />
       <Sponsors />

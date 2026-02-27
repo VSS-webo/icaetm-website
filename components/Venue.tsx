@@ -243,6 +243,8 @@ export default function VenueContact() {
           </h2>
         </div>
 
+        
+
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 px-10">
 
           {/* Airports */}
@@ -510,7 +512,11 @@ export default function VenueContact() {
             Note: Visa Details
           </h3>
           <h4> If you need a visa to attend the conference, we can provide an official invitation letter
-from the conference side. <a href='https://indianvisaonline.gov.in/'>https://indianvisaonline.gov.in</a></h4>
+from the conference side. <a href='https://indianvisaonline.gov.in/'
+  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-indigo-600 text-md flex items-center gap-1 hover:underline">
+  https://indianvisaonline.gov.in</a></h4>
 
           </div>
 
