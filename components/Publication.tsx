@@ -359,7 +359,7 @@ export default function Publications() {
         </div>
 
         {/* PEER REVIEWED JOURNALS */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-x-10 gap-y-12 mt-16 items-center">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-x-10 gap-y-12 mt-16 items-center ">
           {peer_reviewedPublications.map((pub, index) => (
             <motion.div
               key={index}

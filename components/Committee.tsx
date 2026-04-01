@@ -858,6 +858,10 @@ Department of Computer Applications, Sikkim Manipal Institute of Technology, Sik
     Professor<br/>
     Cummins College of Engineering, Pune, Maharashtra</> },
     { name: 'Dr. Anniruddha Gadhikar', affiliation: 'Govt. College, Karad, Maharashtra' },
+
+    {name: 'Dr Rajendrakumar Anayath', affiliation:<>
+    Vice-Chancellor<br/>
+    Maharshi Valmiki Sanskrit University, Kaithal , Haryana</>},
     { name: 'Updating…', affiliation: '' },
             ].map((member, idx) => (
               <div

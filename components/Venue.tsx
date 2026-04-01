@@ -590,7 +590,7 @@ from the conference side. <a href='https://indianvisaonline.gov.in/'
                 <p>
                   <span className="font-bold text-black">Website:</span>{' '}
                   <a
-                    href="https://icaetm-website-ebon.vercel.app/"
+                    href="https://icaetm.org"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-indigo-600 hover:underline"

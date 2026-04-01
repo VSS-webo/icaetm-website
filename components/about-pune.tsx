@@ -56,7 +56,7 @@ export default function AboutPune() {
           </p>
 
           {/* Image Grid */}
-          <div className="grid grid-cols-2 md:grid-cols-3 gap-6 mb-24">
+          <div className="grid grid-cols-2 md:grid-cols-3 gap-6 mb-0">
             {punePlaces.map((place, idx) => (
               <div
                 key={idx}

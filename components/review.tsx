@@ -19,7 +19,6 @@ export default function Reviewer() {
     className="bg-gradient-to-br from-sky-10 via-indigo-50 to-violet-50 py-24 px-6">
       <div className="max-w-7xl mx-auto">
 
-        {/* ================= ABOUT PUNE ================= */}
         <motion.div
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -30,7 +29,7 @@ export default function Reviewer() {
             Reviewer
           </h2>
 
-          <p className="text-center text-slate-600 max-w-4xl mx-auto mb-16 text-lg leading-relaxed text-justify">
+          <p className="text-center text-slate-600 max-w-4xl mx-auto mb-0 text-lg leading-relaxed text-justify">
             Reviewer
             To maintain the quality of articles intended for Scopus publication, we invite you to review manuscripts in
             your area of specialization. The review process will be conducted in a blind peer-review manner to ensure

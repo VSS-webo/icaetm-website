@@ -38,6 +38,7 @@ export default function NationalAdvisorySection() {
     { name: 'Dr. Satishchandra Ogale', affiliation: 'IISER, Pune, Maharashtra' },
     { name: 'Dr. D. S. Watvisave', affiliation: 'Cummins College of Engineering, Pune, Maharashtra' },
     { name: 'Dr. Anniruddha Gadhikar', affiliation: 'Govt. College, Karad, Maharashtra' },
+    {name:'Dr Rajendrakumar Anayath',affiliation:'Maharshi Valmiki Sanskrit University, Kaithal , Haryana'},
     { name: 'Updating…', affiliation: '' },
   ]
 

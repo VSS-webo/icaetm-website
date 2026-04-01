@@ -144,12 +144,17 @@ export default function Hero() {
 
           </div>
 
-          <p className="text-slate-300 mb-10 tracking-wide text-3xl">
+          {/* <p className="text-slate-300 mb-10 tracking-wide text-3xl">
             Last date to register : 01 June 2026
-          </p>
+          </p> */}
 
-          <p className="text-slate-200 mb-10 tracking-wide text-[1.15rem]">
-            NOTE: After receiving the acceptance notification, authors are required to complete the registration process within 72 hours.
+
+            <p className="text-slate-200 mb-7 tracking-full text-2">
+            NOTE: Registration must be completed within 72 hours of acceptance.
+            
+          </p>
+          <p className='text-slate-200 mb-7 tracking-full text-1'>
+            NOTE: The paper should be submitted with a plagiarism report of up to 15%(Turnitin), 10%(Drillbit).
           </p>
 
         </motion.div>
