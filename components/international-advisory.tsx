@@ -46,7 +46,7 @@ export default function AdvisorySection() {
           International Advisory Committee
         </h2>
 
-        <p className="
+        <p className="  
           text-center
           text-slate-600
           max-w-3xl

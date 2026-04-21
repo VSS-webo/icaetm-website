@@ -157,6 +157,8 @@ export default function Hero() {
             NOTE: The paper should be submitted with a plagiarism report of up to 15%(Turnitin), 10%(Drillbit).
           </p>
 
+          
+
         </motion.div>
       </div>
     </section>

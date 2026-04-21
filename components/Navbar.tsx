@@ -87,6 +87,7 @@ export default function Navbar() {
               ['Note', '#speakers'],
               
               ['Contact', '#venue'],
+              ['Brochure', '#venue'],
             ].map(([label, href]) => (
               <a
                 key={label}

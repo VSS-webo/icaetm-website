@@ -85,7 +85,7 @@ import Acknowledge from '@/components/Acknowledgement'
 import AboutPune from '@/components/about-pune'
 import Templates from '@/components/templates'
 import Reviewer from '@/components/review'
-
+import Brochure from '@/components/brochure'
 export default function Home(){
   return(
     <main>
@@ -106,9 +106,12 @@ export default function Home(){
       <Speakers />
       
       
-      
       <Acknowledge/>
+      
       <Venue />
+      <Brochure/>
+
+
       <Sponsors />
       <Footer />
     </main>
