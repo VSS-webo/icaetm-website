@@ -724,7 +724,7 @@ export default function Committee() {
                { name: 'Dr. Arvind R. Singh', affiliation: 'Hanjiang Normal University, Hubei Shiyan, China' },
                { name: 'Dr. Parmal Singh Solanki', affiliation: 'University of Technology and Applied Sciences, Oman' },
                { name: 'Dr. Nishith B. Desai', affiliation: 'Technical University of Denmark, Denmark' },
-
+               { name: 'Dr. Aditya Sole', affiliation: 'Norwegian University of Science and Technology, Norway'},
    
     { name: 'Updating...', affiliation: '' },
             ].map((member, idx) => (
