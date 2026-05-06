@@ -573,7 +573,7 @@ export default function Committee() {
             transition-all duration-300 p-6 text-center">
           
             <p className="text-lg font-semibold text-slate-800">
-              Dr. Manoj R. Tarambale
+              Dr. Sandip R. Patil
             </p>
             <p className="text-slate-600 mt-1 text-sm">
               Principal, PVG’s COETM, Pune
